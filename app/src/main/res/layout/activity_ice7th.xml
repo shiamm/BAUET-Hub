@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/color_surface"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Department.ICE.Download.ClassMaterials.ICE7th.ICE7thActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="5th Semester"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cut_corner_four_side"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_ice3111"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="20dp"
+                        style="@style/menu">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="ICE3111\nOptical Fiber Communication"
+                            android:textAlignment="center"
+                            style="@style/TextView_black_to_white"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_ice3121"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="20dp"
+                        style="@style/menu">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:alpha=".87"
+                            style="@style/TextView_black_to_white"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="ICE3121\nDigital Signal Processing"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_ice3131"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="20dp"
+                        style="@style/menu">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            style="@style/TextView_black_to_white"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="ICE3131\nJava and Network Programming"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_ice3141"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:padding="10dp"
+                        style="@style/menu">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:alpha=".87"
+                            style="@style/TextView_black_to_white"
+                            android:fontFamily="@font/rubik_medium"
+                            android:text="ICE3141\nAntenna Engineering\n"
+                            android:textAlignment="center"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

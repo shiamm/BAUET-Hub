@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Facilities.Clubs.PhotographyActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="BAUET Photography &amp; Media Club"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Year of Foundation: 2015"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Motto: “Life through Lens.”"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="BAUET Photography and Media Club was established in 2015with limited resources with few members. BPMC has arranged two photo exhibitions, one workshop, photo walks and meetings for promoting and fostering the study, practice and appreciation of photography in campus. Besides these, Club prepared a five documentary and 32 promo video for BAUET. Club also work for photography, video and wide range of media coverage each and every program in the campus.
+\n\nMain objectives of the BPMC is to enable its members to grow technical proficiency in photography and media, promote and foster the study, practice and appreciation of photography by means of meetings, lectures, competitions, exhibitions, demonstrations and such other means as are deemed appropriate."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="center"
+                    android:justificationMode="inter_word"
+                    android:text="Activities:"
+                    android:textAlignment="center"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <ImageView
+                    android:id="@+id/pho_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+                <ImageView
+                    android:id="@+id/pho_img2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="2nd Photo Exhibition: BAUET Photography and Media Club arranged a Five day long photography exhibition on 13-17 November 2019 at BAUET Campus. Treasurer Colonel (retd.) Mohammad Hamidul Haque, psc inaugurated the program."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+
+                <ImageView
+                    android:id="@+id/pho_img3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+                <ImageView
+                    android:id="@+id/pho_img4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="1st Photo Exhibition: BAUET Photography and Media Club arranged a Two day long Photography Exhibition on 5-6 June 2017 at BAUET Campus. Honorable Vice Chancellor Brig Gen AHM Shahidullah, psc inaugurated the programme."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Facilities.LibraryMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="BAUET Central Library"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/img_library"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="The Library and Information Department (LID) is the gateway to knowledge. BAUET has a library with the necessary books and internet service to be supplied to all the students. This library provides vast services and information sources to the students and teachers of BAUET. Books have been provided by BAUET authority at free of cost to all students. It will continue in the following sessions also.
+
+\n\nBangladesh Army University of Engineering &amp; Technology (BAUET) has library facilities which are well structured and accumulated with reference books, journals and research papers. Besides the central library, each department has its own library. BAUET Central Library is established with prime objective to support different programs and research needs. It is located in accessible place within the campus. The library is equipped with high speed broadband internet facilities, Wi-Fi connectivity, daily newspapers, magazines and e-books/journals. Library is entirely well decorate and fully furnished."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/img_library1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:lines="1"
+                    android:text="Central Library Facilities:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="1. E-Library Management:
+\nIn future BAUET central will implement integrated Library Management Software named KOHA that manages all books and its stakeholders.
+\n\n2. Reproduction Facilities:
+
+   \n•The library will establish modern reproduction facilities for all the library users. Request for PPC facilities will make on payment. Reproduction on demands for making PPC need to be placed to the Library counter at least 12 hours in advance. Immediate reproduction will not be carried out.
+\n•Scanning &amp; Printing facilities will also establish in the Reproduction Section of the Library.
+\n\n3. E-Library &amp; Online Printing Facilities:
+
+\n\nCyber Centre of the library provides internet browsing facilities to all members. Students and instructors may utilize on-line printing facilities on payment. Printing charge shall be determined by the Vice chancellor of BAUET."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/img_library2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:lines="1"
+                    android:text="Modernization of the Library:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="15dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Now BAUET Central Library has updated manual Library Management System and in future BAUET will implement a complete library automation system using integrated Library Management System (Koha, Dspace, VuFind and Drupal). Checking out, checking in, renewing and holding the reading materials to users these all activities are done by using Library Management System (LMS) in manual process. Members are notified through e-mail and SMS for any necessities. Central library has issued to the students of TEXT BOOK (prescribed by the concern department) for one semester (6 Months) and at a time FIVE Reference book for 1 Month."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                    tools:ignore="HardcodedText" />
+
+                <ImageView
+                    android:id="@+id/img_library3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:scaleType="fitCenter"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".Department.ICE.People.ICEProfessionalsMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="@string/our_Professionals"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/cut_corner_four_side"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_rubayat"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/rubaiyat"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Dr. Rubaiyat Yasmin"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Professor &amp; Head"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img3"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/rubaiyat" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_basar"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    android:elevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/basar"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Dr. Md. Rubel Basar"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Assistant Professor"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img4"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/rubel" />
+
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_partha"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/partha"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Partha Pratim Debnath"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="17sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Assistant Professor"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img5"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/partha" />
+
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_miti"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/miti"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Mousume Samad"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Senior Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img6"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/miti" />
+
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_lincon"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/lincon"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Md. Lincon Hasan"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Senior Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img7"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/lincon" />
+
+
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_nazmul"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/nazmul"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Md. Nazmul Hussain"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/nazmul" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_zihad"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/zihad"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Md. Zihadur Rahman"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img2"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/zihad" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_kabir"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/kabir"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="A.B.M. Kabir Hossain"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img8"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/kabir" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_minhaz"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/minhaz"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:paddingStart="2dp"
+                                android:text="Md. Min-Ha-Zul Abedin"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img9"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/minhaz" />
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_arafat"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/arafat"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Md. Arafat Hossain"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img10"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/arafat" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_imran"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/imran"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Mehedi Hasan Imran"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img11"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/imran" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:id="@+id/card_mouno"
+                    android:layout_width="match_parent"
+                    android:layout_height="130dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="2dp"
+                    app:cardCornerRadius="14dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color">
+
+                    <LinearLayout
+                        android:id="@+id/mouno"
+                        style="@style/sub_menu_card"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:padding="0dp"
+                        android:weightSum="6">
+
+                        <LinearLayout
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="4.5"
+                            android:orientation="vertical"
+                            android:padding="5dp"
+                            android:paddingStart="10dp"
+                            android:paddingEnd="0dp">
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginVertical="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_medium"
+                                android:gravity="center"
+                                android:padding="2dp"
+                                android:text="Nasirul Mumenin"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                                android:textSize="18sp" />
+
+                            <TextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:alpha=".67"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:lines="1"
+                                android:padding="2dp"
+                                android:text="Lecturer"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Caption"
+                                android:textSize="16sp" />
+                        </LinearLayout>
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img12"
+                            android:transitionName="imgtransition"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="1.3"
+                            android:src="@drawable/mumenin" />
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

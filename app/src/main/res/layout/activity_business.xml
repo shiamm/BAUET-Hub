@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Facilities.Clubs.BusinessActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="BAUET Business Club"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Year of Foundation: 2018"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="BAUET BUSINESS CLUB aims at preparing future business leaders who will contribute to the development of our economy. Prepare future business leaders through enhancing business and career-oriented knowledge, skills, motivation, and training so that they can explore themselves as business entrepreneurs and Executives through engaging in different extracurricular activities."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:lines="1"
+                    android:text="Activities:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Industrial Tour, Business Quiz Competition has been arranged in previous times and, we want to arrange at least one workshop on every 14 days (two weeks). The workshops will include- How to present a pitch and presentation, Case solving, Generation Business Ideas, Market Research and Leadership Skills."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <ImageView
+                    android:id="@+id/bs_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

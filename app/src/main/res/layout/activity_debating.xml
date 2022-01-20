@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Facilities.Clubs.DebatingActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="BAUET Debating Society"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Year of Foundation: 2016-2017"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="The history Debate Club of Bangladesh Army University of Engineering &amp; Technology (BAUET), we mean by BAUDS (Bangladesh Army University Debating Society) started its journey in 2016. The University authority and group of students who were felt the need for an organization to promote and develop the talent of the students turning into modern day battle of wits, called debating. All of them were excellent debaters. The first selected committee took responsibility from May 2016.BAUDS organized the first ever debating workshop to train debaters and adjudicators in 2017 at the Campus premises."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Activities:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="With the slogan ‘Debate for Truth, Debate for Logic’ the Club conducts its activities to promote the talents of the students. It also works to develop the good debater &amp; leader of the students of BAUET.
+
+\n\nAs an active club it sits every Monday at 4:00pm with its members.
+
+\n\nSome of its major activities are:
+
+\n1. Regular Debate practice;
+\n2. To arrange Debate Workshop;
+\n3. Inter Department Debate competition;
+\n4. Inter Hall Debate  Competition ;
+\n5. To practice &amp; arrange Parliamentary Debate Competition
+\n6. Collection of members for the club."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+                <ImageView
+                    android:id="@+id/deb_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

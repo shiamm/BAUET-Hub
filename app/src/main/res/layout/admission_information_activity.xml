@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".Admission.AdmissionInformationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Admission Information"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/addmission_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:text="Undergraduate and Post-Graduate Admission"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="The following information may help the admission seeking students to have an overview of the undergraduate programs and post-graduate programs, including all the instructions as per the BAUET rules and regulations:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Number of Seats in Each Intake"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="The number of seats available for 04 (Four) years Bachelor’s Degree (Engineering/Hons) programs are in each batch as follows:
+
+"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+
+
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Admission Process"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Rules and Procedures:
+
+\n\n•Candidates have to complete admission formalities within a fixed period of time as decided by admission office.
+\n•Any candidate failing to complete admission formalities within the prescribed time, her/his selection will be automatically cancelled.
+\n•Any student failing to attend the class within two weeks of the commencement of the academic program will be warranted cancellation of his/her admission and forfeiture of all fees including security deposit.
+\n•Vacant seats will be filled up from waiting lists which will be prepared and displayed by the admission office as per merit and be notified as per requirement.
+\n•Original copies of certificates and transcripts/mark sheets of SSC &amp; HSC or equivalent examination
+\n•Five copies of passport size and two copies of stamp size recent colored photograph of the candidate
+\n•Testimonial from the head of the last institution attended
+\n•Nationality certificate from UP Chairman or appropriate authority or birth certificate
+\n•In case of Freedom Fighters (FF) quota, candidate must submit the original certificate of the FF issued by the Ministry of Freedom Fighters Affairs, the People’s Republic of Bangladesh.
+\n\nDepartment Allotment: Departments will be allotted on the basis of individual merit position in the admission test at the end of admission against total vacancies. Individual choice for selection of departments will be given preference as far as possible.
+
+\n\nGuardian’s Undertakings: During admission, parents/guardians of the candidate must give an undertaking with the conditions set by the BAUET authority.
+
+\n\nAdmission Schedule for Each Year:
+
+\n\n•For Summer (March to August) session the admission process starts from December of the previous year.
+\n•For Fall (September to February) session the admission process starts from July of the same year.
+\n•Selected candidates will get themselves admitted as per the time table to be announced by BAUET."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                    tools:ignore="HardcodedText" />
+
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Qualification for Admission"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="\nEngineering Subjects:The candidate must have passed the SSC/O-Level and HSC/A-Level examinations or equivalent examinations with minimum GPA 3.00 in Physics, Chemistry and Mathematics individually. The candidate must have a total of GPA 8.00 in SSC and HSC examinations or equivalent examinations.
+\n\nBusiness &amp; Humanities Subjects: The Candidate must have at least GPA 3.00 (with 4th Subject) in HSC or equivalent examination. They must have a total of GPA 6.50 (with 4th Subject) in SSC and HSC examinations or equivalent examinations.
+\n\n*In case of provisional admission, candidate must have to submit the verified certificate by the head of the institute that the particular student is expected to pass with at least GPA 3.50. Admission of such candidates will however be cancelled if they fail to achieve the target grade. In case of such cancellation money is refundable."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                    tools:ignore="HardcodedText" />
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

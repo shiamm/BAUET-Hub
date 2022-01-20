@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".Department.CSE.Professionals.BrishtiMainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/Profile_BG"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="65dp"
+                android:id="@+id/img_Bristi"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="3dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:orientation="vertical">
+
+            <View
+                style="@style/Wave_BG"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"/>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="83dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="7dp"
+                        android:alpha=".87"
+                        android:drawableLeft="@drawable/outline_account_circle_black_24"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="center"
+                        android:text="Bristi Rani Roy"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                        android:textSize="22sp"
+                        
+                        tools:ignore="RtlCompat" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:alpha=".87"
+                        android:drawableLeft="@drawable/outline_stars_black_24"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="center"
+                        android:text="Lecturer"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                        android:textSize="22sp"
+                        
+                        tools:ignore="RtlCompat" />
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:alpha=".87"
+                        android:drawableLeft="@drawable/outline_call_black_24"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="center"
+                        android:text="01521481435"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        
+                        tools:ignore="RtlCompat" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="25dp"
+                        android:alpha=".87"
+                        android:drawableLeft="@drawable/email_48px"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="center"
+                        android:text="bristiroy.cse@gmail.com"
+                        android:textAlignment="viewStart"
+                        android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                        android:textSize="22sp"
+                        android:textIsSelectable="true"
+                        
+                        tools:ignore="RtlCompat" />
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/sheet"
+                style="@style/Bottom_Sheet_BG"
+                android:layout_width="match_parent"
+                android:layout_height="580dp"
+                app:behavior_hideable="false"
+                app:behavior_peekHeight="83dp"
+                app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:alpha="0.77"
+                    android:layout_gravity="center_horizontal"
+                    app:backgroundTint="@color/medium_gray"
+                    app:cornerRadius="5dp" />
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:alpha="0.77"
+                    android:fontFamily="@font/rubik_bold"
+                    android:gravity="center"
+                    android:text="Contact Now"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline3"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="77dp"
+                    android:background="@drawable/divider"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btncall"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.77"
+                        android:fontFamily="@font/rubik_bold"
+                        android:text="Call Now"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="@color/green"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/call_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:onClick="gmailButton"
+                        android:text="Send Email"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#D44638"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/gmail_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:onClick="whatsappButton"
+                        android:text="Whatsapp"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#25D366"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/whatsapp_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnfb"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:text="Visit facebook"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#3B5998"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/facebook_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnin"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:text="Visit Linkedin"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#0077B5"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/linkedin_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>

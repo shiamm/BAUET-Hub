@@ -1,0 +1,116 @@
+<resources>
+    <string name="app_name">BAUET</string>
+    <string name="description">Content Description</string>
+    <string name="bauet">Bangladesh Army University of Engineering &amp; Technology</string>
+    <string name="bauet2">BAUET</string>
+    <string name="admission">Admission</string>
+    <string name="academic">Academic</string>
+    <string name="administration">Administration</string>
+    <string name="department">Department</string>
+    <string name="facilities">Facilities</string>
+    <string name="archive">Archive</string>
+    <string name="gallery">Gallery</string>
+    <string name="news_and_event">News &amp; Event</string>
+    <string name="events">Events</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="faculty_members">Faculty Members</string>
+    <string name="exit">Exit</string>
+    <string name="student">Student</string>
+    <string name="news">News</string>
+    <string name="about">About</string>
+    <string name="notice">Notice</string>
+    <string name="our_Professionals">Our Professionals</string>
+    <string name="Professionals">Professionals</string>
+    <string name="ice">Information And Communication Engineering (ICE)</string>
+    <string name="OpenNavDrawer">open nav</string>
+    <string name="CloseNavDrawer">close nav</string>
+    <string name="about_us">About</string>
+
+
+    <string name="brief_title">Bauet In Brief:</string>
+    <string name="bauet_brief">Bangladesh Army University of Engineering &amp; Technology (BAUET) started its journey on 15 January 2015. It was an outcome of the visionary leadership of Sheikh Hasina the Honorable Prime Minister of the People’s Republic of Bangladesh who planned to establish technical universities to be run by the army. Accordingly, the Honorable State Minister for ICT, Mr. Zunaid Ahmed Palak, MP unveiled the Foundation Plaque of the University on 15 February 2015.
+       \n \nBAUET is located at Qadirabad Cantonment in Natore. The place is one of the important communication hub for adjoining major district headquarters: Rajshahi, Pabna, Bogra &amp; Kushtia. Qadirabad Cantonment which is located at Dayarampur is one of the famous places of Natore. Especially, this place is famous for its educational institutions. It has a quiet and serene environment which offers very congenial academic atmosphere.
+
+\n\nThe main campus is located at Qadirabad Cantonment, with a immense infrastructural support from Cantonment. It is a matter of great pride that within a short span of time the University has its own permanent campus in the present location. Moreover, the university has established a wide range of broadband internet facilities with Wi-Fi zone in the campus. The laboratories are well equipped with modern instruments and smart classrooms. Besides, BAUET has the following facilities:
+</string>
+    <string name="following_faci">  • Smart Classrooms
+    \n•Broadband internet facilities with Wi-Fi both in academic buildings and own halls
+    \n•Library
+    \n•100% residential facilities
+    \n•Medical facilities with its own medical team
+    \n•Play ground for games &amp; sports activities
+    \n•Cybercafé</string>
+
+    <string name="vision_mision">Vision, Mission &amp; Objectives:</string>
+    <string name="vision_details">Vision\n\nThe vision of BAUET is to make it a platform of knowledge of excellence and to make it recognize as an internationally reputed private University of  science, engineering and general education.
+
+\n\nMission
+\n\nThe mission of the University is to foster and provide ‘state of the art’ education in engineering, science and general education through its modern education system, research and practical implementation of knowledge by developing human resources, and in turn, enhancing the economic and social well beings of the citizens nationally and internationally.
+
+\n\nObjectives:
+
+\n\n•To offer skill based programs in the fields of Engineering, Science, Business &amp; Technology
+\n\n•To strive for excellence by providing quality education through wide varieties of instructional approaches
+\n\n•To produce highly competent and global standard manpower who will be proficient in communication skill, critical thinking and analytical abilities.
+\n\n•To generate adequate resources to support the University’s instructions, research and extension pursuits
+\n\n•To provide accessible support system that promotes partnership and sense of shared responsibilities
+\n\n•To endeavor the gradual expansion of faculties, departments and programs under the Private University Act 2010 (revised)</string>
+
+    <string name="core">Core Value of BAUET:</string>
+    <string name="core_details">The core values of BAUET are Integrity, Intellectual Curiosity, Commitment to Excellence, Self Discipline, Sense of Accountability, Teamwork and Creativity.</string>
+    <string name="attribute">Attributes of BAUET:</string>
+    <string name="attribute_details">The attributes of the University activities are as follows:\n
+
+\n•Semester wise admission and selection process is the best possible screening of this University.
+\n\n•Interactive sessions in the class room.
+\n\n•Regular guest lectures and educational visits.
+\n\n•Culture of punctuality, commitment and uninterrupted curriculum.
+\n\n•Flexibility in choosing competent faculties through outsourcing.
+\n\n•Well thought-out and continuous feedback and assessment system.
+\n\n•Effective teaching through innovative methods.
+\n\n•Industrial attachment for on job training.
+\n\n•Focus to develop students as good human beings with the possible attributes of successful leaders.
+\n\n•Tranquil, pollution free and secured campus life.
+\n\n•Periodical Cultural Magazines and Science Journals are published with the supervision of a high-level ditorial body.</string>
+
+    <string name="name_foundr">Name of the Founder of BAUET:</string>
+    <string name="name_of_founder">• Vice Chancellor : Brig Gen Engr AHM Shahidullah (Retd), psc\n
+\n• Treasurer : Lt Col Engr GM Azizur Rahman (Retd), afwc, psc\n
+\n• Registrar : Md. Kamruzzaman (Ex Registrar)\n
+\n• Controller of Exams    : Dr. Muhammad Anwar Hossain (Ex Controller of Exams)</string>
+
+    <string name="development_of_bauet">Chronological sequence of development of BAUET is given below:
+
+\n\n• On 22 September 2014, Army Head Quarter (AHQ) sent first letter to UGC.
+\n\n• On 30 September 2014, decision was taken at AHQ for establishing three Army Universities of Science and Technology (AUST) and two Army Institutes of Business Administration (AIBA). For Qadirabad, ECSME was given the responsibility to prepare the initial setup work.</string>
+
+    <string name="development">• On 9 November 2014, the names of universities were changed from AUST to BAUST.
+\n\n• Inspection visit of Commandant MIST and a team in connection with the establishment of the University: 10 November 2014.
+\n\n• Inspection visit of UGC team: 28 November 2014.
+\n\n• Student Admission Test was conducted by MIST: 21 November 2014 -29 November 2014.
+\n\n• Name of the University was finally changed from BAUST to BAUET on 8 January 2015.</string>
+    <string name="appr_autho">Approving Authority:</string>
+    <string name="approaving_authority">All academic programs, courses and syllabus of BAUET are approved by the UGC. All academic programs and examinations are conducted as per the schedule approved by the University. The exam papers are scrutinized through various stages by the supervision of the controller of examination. After approval of the results, certificates will be awarded among the qualified students of BAUET.</string>
+    <string name="history_1">Bangladesh Army has established three technical universities in the country in 2014. One of these three universities is located at Qadirabad cantonment and named as ‘Bangladesh Army University of Engineering &amp; Technology (BAUET), Qadirabad. The University has been established as per the Private Universities Act 2010 of the Bangladesh Government. Army Welfare Directorate of Adjutant General’s Branch of Army Headquarters has been given the responsibility to control these three Universities. It is an independent private University to offer higher technical education to prospective, young generation of Bangladesh. Initial set up work of the University was done by Engineer Centre &amp; School of Military Engineering (ECSME) to start the first semester classes.</string>
+    <string name="his_2">At present we are using permanent campus in own land besides North Western side of Qadirabad Cantonment for our administrative and academic activities from 6 January 2016. The cantonment authority is committed to continue the support and provide us a sense of safety, security and also congenial educational environment as it has been doing since the inception of the BAUET. Area Headquarters Bogura and ECSME are supporting the BAUET administration.</string>
+    <string name="his_detail">• Permanent officers and staffs joined BAUET from 20 January 2015 onwards and taken up the responsibility to start academic session.
+\n\n• First semester session started from 15 February 2015. It was inaugurated by the honorable Minister of State of ICT, Zunaid Ahmed Palok, MP.
+\n\n• Second semester session started from 27 July 2015.
+\n\n• First semester (2nd batch) session started from 16 September 2015.
+\n\n• Vetting and syllabus approval by UGC obtained on November 2015.</string>
+
+    <string name="why_study_here">\n\n• BAUET Graduates will get preference in getting jobs at different organizations of Bangladesh Army.
+\n\n• appointed Vice Chancellor and Treasurer
+\n\n• 100% residential facilities for male and female students
+\n\n• D. holders and experienced full time faculty members
+\n\n• More than 40 well-equipped modern laboratories
+\n\n• Well-enriched modern library with e-learning facilities
+\n\n• Classrooms with smart boards and multimedia projectors
+\n\n• Merit Scholarship and waiver facilities for deserving students
+\n\n• 14 active clubs along with BNCC for co-curricular activities
+\n\n• Play grounds and gymnasium for games and sports
+\n\n• Financial assistance for GPA 5 in both SSC &amp; HSC</string>
+    <string name="hello_world">Hello Square World!</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

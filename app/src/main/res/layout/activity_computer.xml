@@ -1,0 +1,660 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Facilities.Clubs.ComputerActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="BAUET Computer Society"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:lines="1"
+                    android:text="Introduction:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="The importance of various clubs besides class education is immense for the development of creative education and talent of the university as well as for the development of the nation and the creation of qualified and skilled manpower. As a resident of Bangladesh in early 2020, there is no need to understand the fact that development in any social and commercial sector is not possible without the advancement of information technology. I call for the inauguration of the “BAUET Computer Society” club with its commitment to build a digital Bangladesh. Because the future of the country depends on the talent and values ​​of the young society of Bangladesh. Just as this club will increase the efficiency of its members and pave the way for employment, it will also work with the great vow of building ideal people.
+
+\n\n“The BAUET Computer Society” consists of a total of 13 sub-committees, the details of which are given in the following chapters. The sub-committee was:
+
+\n\n1. Patronage Committee
+\n2. Advisory Committee
+\n3. Executive Committee"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Committees according to division"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="4. Software Development Committee
+\n5. Programming Committee
+\n6. Game Development, Animation, AR and VR Committees
+\n7. Web Development Committee
+\n8. Research Committee
+\n9. Cyber ​​Security Committee
+\n10. Hardware Development Committee
+\n11. Sponsor, Publication, Promotion and Maintenance Committee
+\n12. Educational Committee
+\n13. Cultural and Sports Committee"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Aims and Objectives:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="(1) To develop the high values ​​of the students and to spend all the talents, labor and education for the welfare of the people.
+
+\n\n(2) To ensure the proper development of the mind, taste and personality of the members through proper practice of creative culture.
+
+\n\n(3) To cultivate a deep sense of brotherhood among all irrespective of religion, caste, community and ethnicity.
+
+\n\n(4) To work for the overall welfare of the country and the people through various practices and volunteerism.
+
+\n\n(5) To achieve spiritual and emotional development of the students.
+
+\n\n(6) To make the students fit in the modern world by enhancing their personal and professional skills.
+
+\n\n(7) To play a special role in good leadership and nation building."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Outline of the Executive Committee:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="There will be a working committee for the club whose term will be 01 (one) semester. The Honorable Vice-Chancellor of BAUET as the Chief Patron of the Committee will give necessary directions to the Committee. The members of the executive committee will be promoted after every 01 (one) semester. The Executive Committee may appoint new members as required."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Format of Executive Committee:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Chief Patron – Hon’ble Vice Chancellor
+
+\nAdvisors – Treasurer, Registrar &amp; Dean, Electrical &amp; Computer Engineering
+
+\nMentoring Committee:
+
+\nMentor – Teachers and alumni
+
+\nExecutive Committee:
+
+\nPresident – 1 teacher
+
+\nVice-President – 2 (1 teacher + 1 student)
+
+\nGeneral Secretary – 1 student
+
+\nHuman Resource Secretary – 1 student
+
+\nWomen Secretary – 1 student
+
+\nTreasurer – 1 student
+
+\nSegment-wise Committee:
+
+\nVice-President – 1 student
+
+\nAssistant General Secretary – 1 student
+
+\nOrganizing Secretary – 1 student
+\nVice-President – 1 student
+
+\nAssistant General Secretary – 1 student Organizing Secretary – 1 student
+
+\nCurrent Committee President, Vice Presidents and General Secretary
+\nSponsor, Publication, Promotion &amp; Maintenence Committee:
+\nAssistant General Secretary – 1 student
+
+\nLiterature Secretary – 1 student
+
+\nInformation and Technology Secretary (ICT Secretary) – 1 student
+
+\nPromotion Secretary – 1 student
+
+\nOffice Secretary – 1 student
+
+\nMaintenance Secretary – 1 student
+
+
+
+\nScholastic Committee:
+
+\nTraining Secretary – 1 student
+
+\nEducational Secretary – 1 student
+
+
+
+\nCultural &amp; Sports Committee:
+
+\nCultural Secretary – 1 student
+
+\nSports Secretary – 1 student
+
+
+
+\n\n(1) Every effort will be made to keep at least one-third female students in the committee.
+
+\n\n(2) At least one meeting shall be held every month in the Executive Committee and the discussion, decision and progress of the meeting shall be recorded. Again the copy will be given to the main sponsor."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Club committee selection procedure:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="(1) The person holding the post of President must have past experience in such work. The president will similarly elect one student and one teacher as vice-president.
+
+\n\n(2) The Vice-President shall be elected the Chairman of the next Committee.
+
+\n\n(3) CV will be accepted for selection of club committee members. And the candidate will be considered for the prescribed post on the basis of merit. The structure of the CV will be provided by the club authorities."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Minimum qualifications of club members:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="(1) To be a member of the club, one must be a student of BAUET. Students below 3.00 in any semester cannot be a member of the club.
+
+\n\n(2) In order to become a member of the club, the prescribed form must be filled through which the student will prove his / her qualifications, experience and desire to work hard. There is no fee to become a member of the club.
+
+\n\n(3) No member shall pay any kind of subscription monthly or annually or in any one manner."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Rules and regulations:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="(1) All members are bound to abide by all rules of the club.
+
+\n(2) Members must maintain control of the club.
+
+\n(3) Every effort should be made to take part in all the events of the club.
+
+\n(4) Every effort should be made to engage in voluntary work as required, as advised by the event coordinator.
+
+\n(5) Members may not engage in any activity that would be shameful to the club.
+
+\n(6) If there is any concern or concern, the head of the committee should be informed. The head of the self-governing committee will inform the executive committee and necessary action will be taken.
+
+\n(7)All members must attend each meeting. If a member is absent from a meeting, he must show cause. If he does not attend two consecutive meetings without showing cause, the executive committee will take necessary action.
+
+\n(8) If any member breaks the rules of the club or tries to create chaos, he will be immediately dismissed from the club. No student will be allowed to participate in any activities or events organized by the club while being dismissed from the club.
+
+\n(9) If any member misbehaves with any other member or executive member, he shall be dismissed from the club.
+
+\n(10) Strict action will be taken against anyone who tries to cause problems during various events.
+
+\n(11) The members have to fulfill the responsibilities assigned to them within the stipulated time. Otherwise the authorities will take necessary action.
+
+\n(12) At the monthly meeting, the members of the club should present the progress of the work to the members of the committee.
+
+\n(13) No assets of the Club may be used for personal or other purposes.
+
+\n(14) If the members of the club need to work in the lab, they have to maintain the register book of the lab.
+
+\n(15) The Executive Committee has the power to add, subtract, change or add new provisions at any time as it deems necessary."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Minimum activities of the committee:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="(1) The club shall organize at least one event or event annually.
+
+\n(2) The committee of the club will always be active."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Receipt of club members:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="At the end of the term of each member committee, a certificate will be issued to all the members including the executive member through a closing ceremony. Members can also get Lifetime Membership by demonstrating outstanding qualifications. Those who perform well in various programs will be awarded a “Certificate of Excellence”."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Training:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="On behalf of the club, workshops, seminars and necessary training will be arranged to enhance the qualifications and skills of the members. In this case, the required budget will be passed by the main sponsor at least 8 or 10 days before the start of the program."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Duties and responsibilities of the officers and employees engaged in the management of the club:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Duties and responsibilities of the President:
+
+\n(1) Carry out the overall responsibility of implementing, supervising, evaluating and observing all kinds of programs of the club and shall be responsible to the higher authority for its proper execution.
+
+\n(2) Be diligent in resolving any kind of problem and take action in this regard as soon as possible.
+
+\n(3) Perform other duties assigned by the authority.
+
+\n(4) Take initiative to purchase the goods of the club.
+
+\n\nDuties and Responsibilities of the Vice-President:
+
+\nWill provide active cooperation to the President in the implementation of the activities of the club. Perform other duties assigned by the authority.
+
+\n\nDuties and Responsibilities of the General Secretary:
+
+\n(1) To play an active role in implementing the activities of the club as directed by the President. (2) Perform other duties assigned by the authority."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:lines="1"
+                    android:text="Fundraising:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="The president will propose an annual budget for the club along with the university. The Hon’ble Vice-Chancellor will approve the final budget of the clubs through a coordination meeting."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:lines="1"
+                    android:text="Discipline and security:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="(1) Individuals involved in the club shall be bound to abide by the constitution of the club and anti-constitutional activities shall be deemed to be breach of discipline.
+
+\n(2) If the accused person is found guilty, the Executive Committee may take necessary action against him.
+
+\n(3) No assets of the Club may be used for personal or other purposes.
+
+\n(4) Security must be ensured in conducting the activities of the club."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Observation and evaluation:"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text=" An activity and evaluation report will be prepared from the club and a copy of the report will be sent to the office of the Hon’ble Vice-Chancellor / Chief Patron."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

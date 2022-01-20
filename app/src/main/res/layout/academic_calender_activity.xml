@@ -1,0 +1,3447 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".Academic.AcademicCalenderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Academic Calendar"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="03rd Jan, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Fall Semester: All batches including 12th Batch of all Depts. will start"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="10th Jan, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Referred Exams of all batches"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="24th Jan– 28th Jan, Sun-Thu, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Mid Break (WV)"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="31st Jan, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Classes Start after Mid Break"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="15th  Feb, Monday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="BAUET Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="16th Feb, Tuesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="*Sharaswati Puja"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="17th  Feb, Wednesday,  2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Nobinboron Utsov"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="21st  Feb, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Shaheed Dibosh and International Mother Language Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="11th Mar, Thursday,  2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="*Shab-e-Meraj"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="17th Mar, Wednesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Birth Anniversary of  the Father of the Nation Bangabandhu Sheikh Mujibur Rahman"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="18th Mar, Thursday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="End of Class"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="21st Mar – 1st Apr, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Preparatory Leave"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="26th Mar, Friday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Independence Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="30th Mar, Tuesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="*Shab-E-Barat"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="4th Apr, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Easter Sunday"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="5th Apr – 22nd Apr, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Final Examination – Summer Semester"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="14th Apr, Wednesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Bangla New year"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="25th Apr – 20th May, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Industrial Attachment of all Engg. Depts. (SV)"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="1st  May, Saturday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="May Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="7th May, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Zumatul Bidah"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="9th May –17th May, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Shab-E-Qadar, Eid – ul – Fitr"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="23rd May, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Summer Semester: All batches including 13th Batch of all Depts. will start"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="26th May, Wednesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="* Buddha Purnima"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="30th Jun, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Referred exams of all batches"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="11th July – 15th July, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Mid Break"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="19th – 24th July, Mon-Sat, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Eid-ul-Azha"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="1st Aug 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Classes Start after Mid Break"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="15th August, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="National Mourning Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="19th August, Thursday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Ashura"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="30th August, Monday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Janmashtami"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="16th Sep, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="End of Class"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="19th – 30th Sep, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Preparatory Leave"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="3rd Oct, Sunday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="* Akheri Chahar Somba"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="4th – 21st Oct, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Final Examination: Fall Semester"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="15th -16th Oct, Fri -Sat, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Durga Puja"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="19th Oct, Tuesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="* Eid-E-Milad-Un-Nabi"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="7th Nov, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Fall Semester: Classes of all batches all Depts. including 14th batch"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="17th Nov, Wednesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="*Fateha-i-Yajdaham"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="14th Dec, Tuesday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Intellectual Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="16th Dec, Thursday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Victory Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="19th Dec – 23rd 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Winter Vacation"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="25th Dec, Saturday, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Christmas Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="26th -30th Dec, 2021"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Mid Break"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="2nd Jan 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Classes Start after Mid Break"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="9th Jan 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Referred exams of all batches"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="21st  Feb, Monday, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Shaheed Dibosh and International Mother Language Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="24th Feb, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="End of Class"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="26th Feb, Sat 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="*Shab-e-Meraj"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="27th Feb – 10th Mar, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Preparatory Leave"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="13th – 31st Mar, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Final Examination: Fall Semester"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="17th Mar, Thursday, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Birth Anniversary of  the Father of the Nation Bangabandhu Sheikh Mujibur Rahman"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="18th Mar, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Shab- e-Barat"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Calender_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:lines="2"
+                            android:text="26th Mar, Saturday, 2022"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="2dp"
+                                android:layout_marginBottom="2dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Independence Day"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="16sp" />
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+               
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

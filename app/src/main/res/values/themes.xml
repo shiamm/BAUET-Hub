@@ -1,0 +1,142 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="Theme.BAUET" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primary_dark</item>
+        <item name="colorOnPrimary">@color/gray</item>
+        <item name="colorSurface">@color/Surface</item>
+        <item name="colorOnSurface">@color/black</item>
+        <item name="background">@color/background</item>
+        <item name="colorOnBackground">@color/black</item>
+        <item name="colorError">#B00020</item>
+        <item name="divider">@color/divider1</item>
+        <item name="colorOnError">@color/white</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#03DAC6</item>
+        <item name="colorSecondaryVariant">#018786</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">#e1e2df</item>
+        <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
+
+        <!--Material type attributes-->
+        <item name="textAppearanceHeadline1">@style/TextAppearance.BAUET.Headline1</item>
+        <item name="textAppearanceHeadline2">@style/TextAppearance.BAUET.Headline2</item>
+        <item name="textAppearanceHeadline3">@style/TextAppearance.BAUET.Headline3</item>
+        <item name="textAppearanceHeadline4">@style/TextAppearance.BAUET.Headline4</item>
+        <item name="textAppearanceHeadline5">@style/TextAppearance.BAUET.Headline5</item>
+        <item name="textAppearanceHeadline6">@style/TextAppearance.BAUET.Headline6</item>
+        <item name="textAppearanceSubtitle1">@style/TextAppearance.BAUET.Subtitle1</item>
+        <item name="textAppearanceSubtitle2">@style/TextAppearance.BAUET.Subtitle2</item>
+        <item name="textAppearanceBody1">@style/TextAppearance.BAUET.Body1</item>
+        <item name="textAppearanceBody2">@style/TextAppearance.BAUET.Body2</item>
+        <item name="textAppearanceButton">@style/TextAppearance.BAUET.Button</item>
+        <item name="textAppearanceCaption">@style/TextAppearance.BAUET.Caption</item>
+        <item name="textAppearanceOverline">@style/TextAppearance.BAUET.Overline</item>
+
+        <!-- Transition Animation. -->
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+        <item name="android:windowContentTransitions">true</item>
+
+    </style>
+
+    <!-- Customize your theme here. -->
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <style name="TextView_black">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView_white">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="TextView_black_to_white">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="TextView_white_to_black">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Bottom_Sheet_BG">
+        <item name="android:background">@drawable/bottom_sheet_rounded</item>
+    </style>
+
+    <style name="Profile_BG">
+        <item name="android:background">#0069D9</item>
+    </style>
+
+    <style name="Calender_BG">
+        <item name="android:background">#e1e2df</item>
+    </style>
+
+    <style name="Wave_BG">
+        <item name="android:background">@drawable/wave</item>
+    </style>
+
+    <style name="sub_menu_card">
+        <item name="android:background">@drawable/a_lost_memory</item>
+    </style>
+
+    <style name="menu">
+        <item name="android:background">#f9faf2</item>
+    </style>
+
+    <style name="color_home">
+        <item name="android:background">#e1e2df</item>
+    </style>
+
+    <style name="color_surface">
+       <item name="android:background">#e1e2df</item>
+    </style>
+
+    <style name="ripple_color">
+        <item name="rippleColor">#e0e7c2</item>
+    </style>
+
+    <style name="color_notice">
+        <item name="android:background">#f9faf2</item>
+    </style>
+
+    <style name="teacher_textview">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:alpha">0.87</item>
+        <item name="android:fontFamily">@font/rubik_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textIsSelectable">true</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="android:textAppearance">@style/TextAppearance.BAUET.Body1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:drawablePadding">10dp</item>
+    </style>
+
+    <style name="contact_button">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">70dp</item>
+        <item name="android:layout_marginLeft">25dp</item>
+        <item name="android:layout_marginRight">25dp</item>
+        <item name="android:alpha">0.87</item>
+        <item name="android:fontFamily">@font/rubik_bold</item>
+        <item name="android:textAppearance">@style/TextAppearance.BAUET.Subtitle1</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

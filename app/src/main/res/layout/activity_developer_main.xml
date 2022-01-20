@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".About_Us.DeveloperMainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:background="@drawable/dev_photo"
+            android:gravity="top"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="320dp"
+                android:layout_gravity="top"
+                android:background="@drawable/dev_photo"
+                android:scaleType="centerCrop"
+                android:src="@drawable/img_dev"/>
+        </LinearLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="45dp"
+                android:background="@drawable/cut_corner_four_side"
+                app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="10dp"
+                    android:orientation="vertical">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="0dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_marginEnd="0dp"
+                        android:layout_marginBottom="83dp">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginStart="10dp"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/teacher_textview"
+                                android:layout_marginTop="7dp"
+                                android:drawableStart="@drawable/fraud_40px"
+                                android:text="Md. Shiam Mahmud" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/teacher_textview"
+                                android:layout_marginTop="25dp"
+                                android:drawableStart="@drawable/identification_documents_48px"
+                                android:text="17205002" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/teacher_textview"
+                                android:layout_marginTop="25dp"
+                                android:drawableStart="@drawable/department_48px"
+                                android:text="I.C.E 4th" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/teacher_textview"
+                                android:layout_marginTop="25dp"
+                                android:drawableStart="@drawable/outline_call_black_24"
+                                android:text="01769176144" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/teacher_textview"
+                                android:layout_marginTop="25dp"
+                                android:drawableStart="@drawable/email_48px"
+                                android:text="shiam171998@gmail.com" />
+
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/sheet"
+                style="@style/Bottom_Sheet_BG"
+                android:layout_width="match_parent"
+                android:layout_height="675dp"
+                app:behavior_hideable="false"
+                app:behavior_peekHeight="83dp"
+                app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:alpha="0.77"
+                    app:backgroundTint="@color/medium_gray"
+                    app:cornerRadius="5dp" />
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:alpha="0.77"
+                    android:fontFamily="@font/rubik_bold"
+                    android:gravity="center"
+                    android:text="Contact Now"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline3"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="77dp"
+                    android:background="@drawable/divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btncall"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="100dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        app:iconGravity="textStart"
+                        android:text="Call Now"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:gravity="center"
+                        app:backgroundTint="#15B76C"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/call_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:gravity="center"
+                        app:iconGravity="textStart"
+                        android:onClick="gmailButton"
+                        android:text="Send Email"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#D44638"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/gmail_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnmessenger"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:gravity="center"
+                        app:iconGravity="textStart"
+                        android:text="Send Message"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#0084ff"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/facebook_messenger_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnfb"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:gravity="center"
+                        app:iconGravity="textStart"
+                        android:text="Visit facebook"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#3B5998"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/facebook_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnin"
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:gravity="center"
+                        app:iconGravity="textStart"
+                        android:text="Visit Linkedin"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#0077B5"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/linkedin_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/TextView_black_to_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="70dp"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginRight="25dp"
+                        android:alpha="0.87"
+                        android:fontFamily="@font/rubik_bold"
+                        android:gravity="center"
+                        app:iconGravity="textStart"
+                        android:onClick="whatsappButton"
+                        android:text="DM on Whatsapp"
+                        android:textAppearance="@style/TextAppearance.BAUET.Subtitle1"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#25D366"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/whatsapp_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

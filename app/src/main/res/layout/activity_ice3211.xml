@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/color_surface"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3211Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="ICE3211\nComputer Architecture and Organization"
+            style="@style/TextView_black_to_white"
+            android:alpha="0.87"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cut_corner_four_side"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                style="@style/ripple_color">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingEnd="0dp">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingEnd="0dp">
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_1"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 01 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_2"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 02 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_3"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 03 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_4"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 04 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_5"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 05 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_6"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 06 to 08 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_7"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 09 to 11 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_8"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 12 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_9"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 13 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_10"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 14 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_11"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 15 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_12"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 16 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_13"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 17 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_14"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 18 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_15"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 19 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_16"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 20 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_17"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 21 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_18"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 22 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_19"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 23 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_20"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 24 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_21"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 25 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_22"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 26 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_23"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 27 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_24"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 28 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_25"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 29 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_26"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 30 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_27"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 31 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_28"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 32 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_29"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 33 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3211_30"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Lec 34 MNH"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+
+
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Department.ICE.About.WhyIceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Why study in ICE at BAUET?"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/why_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Bangladesh Army University of Engineering &amp; Technology (BAUET) started its journey on 15 January 2015. It was an outcome of the visionary leadership of Sheikh Hasina the Honorable Prime Minister of the People’s Republic of Bangladesh who planned to establish technical universities to be run by the army. Accordingly, the Honorable State Minister for ICT, Mr. Zunaid Ahmed Palak, MP unveiled the Foundation Plaque of the University on 15 February 2015. BAUET is located at Qadirabad Cantonment in Natore. The place is one of the important communication hubs for adjoining major district headquarters: Rajshahi, Pabna, Bogra &amp; Kushtia. Qadirabad Cantonment which is located at Dayarampur is one of the famous places of Natore. Especially, this place is famous for its educational institutions. It has a quiet and serene environment which offers a very congenial academic atmosphere.
+
+The main campus is located at Qadirabad Cantonment, with immense infrastructural support from Cantonment. It is a matter of great pride that within a short span of time the University has its own permanent campus in the present location"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="10dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_medium"
+                    android:gravity="start"
+                    android:text="Key Features of ICE Department"
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline6"
+                    android:textSize="20sp"
+                    tools:ignore="RtlHardcoded"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="\n•One of the top-ranked universities in Bangladesh controlled by the Bangladesh Army.
+\n•Curriculum associated with Outcome-Based Education(OBE)
+\n•Enriched labs and smart classrooms with modern technology and equipment.
+\n•Remarkable achievements of ICE department in national and international stages
+\n•Provide international standard education in undergraduate and selected professional and graduate levels as well. Our graduates have been successfully working in several renowned organizations.
+\n•Maintain a pool of excellent teaching staff by hiring through a rigorous screening and interview. We have Ph.D holder faculties in the ICE department alone to provide eminence research and innovation. We hire adjunct faculty members from RUET, BUET, RU in order to ensure proper nurturing and caring of our students.
+\n•To reduce the industry-academia gap seminars, workshops, and parallel academic training programs on state-of-the-art technologies are arranged, which are conducted by the industry people.
+\n•Maintain the student-teacher ratio as low as possible to provide an effective teaching and learning environment. In theory classes, this ratio is 10~25 while in lab classes this is 5~10.
+\n•Target to address all kinds of students including slow and passive learners.
+\n•Provide a good number of scholarships. At present 20% of students get a 25-100% tuition fee waiver based on the previous semester’s result. In addition to this, we provide scholarships during admission (in the form of tuition waivers) based on HSC results and a 3% freedom fighter quota.
+\n•Arrange extra-curricular activities for students through a number of student clubs and forums.
+\n•Always make an impact on society by engaging students in social work, helping others during natural disasters, women empowerment, child education, etc."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+
+</LinearLayout>

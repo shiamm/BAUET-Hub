@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    style="@style/color_surface"
+    tools:context=".Department.ICE.About.WelcomeMessageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Welcome Message"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/wel_img1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:scaleType="fitCenter"/>
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:layout_marginTop="5dp"
+                    android:alpha=".87"
+                    android:fontFamily="@font/rubik_regular"
+                    android:gravity="start"
+                    android:justificationMode="inter_word"
+                    android:text="Welcome to the Department of Information and Communication Engineering (ICE), BAUET. The Department of Information and Communication Engineering (ICE) of BAUET is one of the most vibrant departments in BAUET established in 2016. Our goal is to educate young talents with a world-class education and train them for technological and socio-economic development for the world. Our students have the opportunity to gain knowledge and experience from highly experienced, energetic, and enthusiastic faculty members. Our faculty members strive to provide an exceptional teaching-learning environment and cutting-edge knowledge for students. Well-equipped classrooms, modern laboratories, a number of high-end computers, extracurricular activities, and most importantly personal care are the main attractions of the ICE Department.
+The academic programs offered are suitable for students to compete in competitive research and work facilities in Bangladesh and around the world. Our course curriculum is frequently updated to incorporate the latest technologies, up-to-date developments, and advancements in various fields of Information and Communication Engineering. The world is now changing rapidly in technological aspects due to the proliferation of the use of information technology. The ICE department guarantees first-class learning materials regarding cutting-edge technologies such as 5G / 6G, IoT, machine learning, artificial intelligence, big data and social media analytics, software engineering, Internet and web programming and computing in the cloud in addition to fundamental courses such as information theory and coding, analog electronics, digital electronics, satellite communication, computer programming (C ++, Java), computer architecture and organization, and signal processing.
+I wish all the success of this Department and also of its faculty members, students and associated staff in creating an excellent working environment."
+                    android:textAlignment="viewStart"
+                    android:textAppearance="@style/TextAppearance.BAUET.Body1"/>
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

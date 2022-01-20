@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.edu.bauet">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BAUET">
+        <activity
+            android:name=".Department.ICE.ICEActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Event.EventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Event.ICEUploadEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Event.ICEEventMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.ImranActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.MumeninMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Gallery.GalleryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Notice.NoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.CurriculumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Student.ResultsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Student.CTActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Student.TRoutineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Student.RoutineActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admission.AdmissionNotice.UploadAdmissNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Academic.AcademicRegulationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.AdminLogInActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE7th.ICE7thActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE7th.ICE3141Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE7th.ICE3131Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE7th.ICE3121Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE7th.ICE3111Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE6th.ICE6thActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3251Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3241Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3231Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3221Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3211Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE5th.ICE5thActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE5th.ICE4171Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE5th.ICE4131Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE5th.ICE4121Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE5th.ICE4111Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE4th.ICE4thActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE4th.ICE4261Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE4th.ICE4231Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE4th.ICE4221Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ICE4th.ICE4211Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Notice.IceUploadNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Notice.IceNoticeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Gallery.ShowImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Gallery.UploadiceimageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ClassLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE7th.ICE3142Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE7th.ICE3132Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE7th.ICE3122Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE7th.ICE3112Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE6th.ICE3242Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE6th.ICE3232Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE6th.ICE3222Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE6th.ICE3212Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE5th.ICE4132Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE5th.ICE4122Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE5th.ICE4112Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE4th.ICE4262Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE4th.ICE4222Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE4th.ICE4212Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE7th.ICE7thMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE6th.ICE6thMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE5th.ICE5thMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.ICE4th.ICE4thMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.LabLoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.LabMaterials.BatchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.CoverPageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ReportFormatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.FormsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.ClassMaterials.ClassMaterialsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.About.AchievementActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.About.WhyIceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.About.VisionMissionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.About.AboutIceActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.About.WelcomeMessageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.About.AboutMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Download.DownloadMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.Student.StudentMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.PeopleMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.ShamsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.RatonActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.ManikActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Department.ICE.People.TechnicalStaffsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.News.UploadNewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.News.NewsMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Event.UploadEventActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Event.EventMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Notice.FullImageActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Notice.NoticeMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Gallery.ShowImageMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Database.Gallery.UploadImageMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Administration.StudentsWelfareMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.ProctorMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.OfficeLibraryMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.ControllerofExamMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.RegistrarMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.TreasurerMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.FinanceCommitteeMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.AcademicCouncilMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.DeanofFacultiesMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.AdministrativeOfficersMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.SyndicateofBAUETMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.BoardofTrusteesMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.ViceChancellorMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.ChancellorMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Administration.AdministratorMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".About_Us.DeveloperMainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.LanguageActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.SportsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.BNCCActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.PhotographyActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.BusinessActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.ICTActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.ComputerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.RoboticActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.NatureClubActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.DebatingActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.WelfareActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.CareerActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Facilities.Clubs.CulturalActivity"
+            android:exported="true" />
+        <activity android:name=".Admission.AdmissionNotice.AdmissionNoticeMainActivity" />
+        <activity android:name=".Admission.AdmissionMainActivity" />
+        <activity android:name=".Academic.AcademicMainActivity" />
+        <activity android:name=".About_Us.Contact_Us_Activity" />
+        <activity android:name=".Database.Notice.UploadNoticeActivity" />
+        <activity android:name=".Facilities.BankMainActivity" />
+        <activity android:name=".Facilities.GymMainActivity" />
+        <activity android:name=".Facilities.CafeteriaMainActivity" />
+        <activity android:name=".Facilities.TransportMainActivity" />
+        <activity android:name=".Facilities.HealthMainActivity" />
+        <activity android:name=".Facilities.LibraryMainActivity" />
+        <activity android:name=".Facilities.HallMainActivity" />
+        <activity android:name=".Facilities.ClubsMainActivity" />
+        <activity android:name=".Facilities.FacilitiesMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.AroniMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.IrinMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.RakhiMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.BrishtiMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.SubrataMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.NazmusMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.HarunMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.AbdullahMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.OmarMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.MithunMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.MuktarMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.SabbirMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.AnanyaMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.AsmaMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.GolamMainActivity" />
+        <activity android:name=".Department.CSE.Professionals.MirzaMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.AmanurMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.ShahadatMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.SuvojitMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.MotakabbirMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.SaraMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.SariulMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.SamiaMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.TonmoyMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.BulbulMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.NeepaMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.MahmudulMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.AbdulMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.RabiullMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.MomtazurMainActivity" />
+        <activity android:name=".Department.EEE.Professionals.RezaulMainActivity" />
+        <activity android:name=".Department.CE.Professionals.TanverMainActivity" />
+        <activity android:name=".Department.CE.Professionals.RokonMainActivity" />
+        <activity android:name=".Department.CE.Professionals.RimaMainActivity" />
+        <activity android:name=".Department.CE.Professionals.SaddamMainActivity" />
+        <activity android:name=".Department.CE.Professionals.SuraiyaMainActivity" />
+        <activity android:name=".Department.CE.Professionals.MohshinMainActivity" />
+        <activity android:name=".Department.CE.Professionals.ShamimaMainActivity" />
+        <activity android:name=".Department.CE.Professionals.ShajahanMainActivity" />
+        <activity android:name=".Department.CE.Professionals.MahmudurMainActivity" />
+        <activity android:name=".Department.CE.Professionals.RashidulMainActivity" />
+        <activity android:name=".Department.EEE.EEEProfessionalsMainActivity" />
+        <activity android:name=".Department.CE.CEProfessionalMainActivity" />
+        <activity android:name=".Department.ICE.People.ArafatMainActivity" />
+        <activity android:name=".About_Us.AboutUsMainActivity" />
+        <activity android:name=".Academic.TranscriptDegreeCFDtilActivity" />
+        <activity android:name=".Academic.AcademicCalenderActivity" />
+        <activity android:name=".Admission.ScholarshipWaiverActivity" />
+        <activity android:name=".Admission.HowToPayActivity" />
+        <activity android:name=".Admission.AdmissionOfficeActivity" />
+        <activity android:name=".Admission.AdmissionInformationActivity" />
+        <activity android:name=".Department.ICE.People.MinhazMainActivity" />
+        <activity android:name=".Department.ICE.People.KabirMainActivity" />
+        <activity android:name=".Department.ICE.People.ZihadMainActivity" />
+        <activity android:name=".Department.ICE.People.NazmulMainActivity" />
+        <activity android:name=".Department.ICE.People.LinconMainActivity" />
+        <activity android:name=".Department.ICE.People.MitiMainActivity" />
+        <activity android:name=".Department.ICE.People.ParthaMainActivity" />
+        <activity android:name=".Department.ICE.People.RubelMainActivity" />
+        <activity android:name=".Department.ICE.People.RubayatYasminActivity" />
+        <activity android:name=".Department.CSE.CSEProfessionalsMainActivity" />
+        <activity android:name=".Department.ICE.People.ICEProfessionalsMainActivity" />
+        <activity android:name=".Department.DepartmentMainActivity" />
+        <activity android:name=".About_Us.WhyStudyHereActivity" />
+        <activity android:name=".About_Us.HistoryActivity" />
+        <activity android:name=".About_Us.AboutUsActivity" />
+        <activity android:name=".Database.AdminHomeActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

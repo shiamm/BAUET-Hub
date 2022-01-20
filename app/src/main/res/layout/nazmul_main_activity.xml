@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/color_surface"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Department.ICE.People.NazmulMainActivity">
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            style="@style/Profile_BG"
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:orientation="vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgtran"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_gravity="center"
+                android:layout_margin="65dp"
+                android:src="@drawable/nazmul"
+                android:transitionName="imgtransition"
+                app:civ_border_color="@color/white"
+                app:civ_border_width="3dp">
+
+            </de.hdodenhof.circleimageview.CircleImageView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="260dp"
+            android:orientation="vertical">
+
+            <View
+                style="@style/Wave_BG"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+
+            </View>
+
+            <androidx.core.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="83dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/teacher_textview"
+                        android:drawableStart="@drawable/outline_account_circle_black_24"
+                        android:text="Md. Nazmul Hussain"
+                        android:layout_marginTop="7dp" />
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/teacher_textview"
+                        android:drawableStart="@drawable/outline_stars_black_24"
+                        android:text="Lecturer"
+                        android:layout_marginTop="25dp"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/teacher_textview"
+                        android:drawableStart="@drawable/outline_home_black_24"
+                        android:text="Meherpur"
+                        android:layout_marginTop="25dp"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/teacher_textview"
+                        android:drawableStart="@drawable/outline_call_black_24"
+                        android:text="01752061777"
+                        android:layout_marginTop="25dp"/>
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/teacher_textview"
+                        android:drawableStart="@drawable/email_48px"
+                        android:text="nazmulece12@gmail.com"
+                        android:layout_marginTop="25dp"/>
+
+                </LinearLayout>
+            </androidx.core.widget.NestedScrollView>
+        </LinearLayout>
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/sheet"
+                style="@style/Bottom_Sheet_BG"
+                android:layout_width="match_parent"
+                android:layout_height="715dp"
+                app:behavior_hideable="false"
+                app:behavior_peekHeight="83dp"
+                app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:alpha="0.77"
+                    app:backgroundTint="@color/medium_gray"
+                    app:cornerRadius="5dp" />
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:alpha="0.77"
+                    android:fontFamily="@font/rubik_bold"
+                    android:gravity="center"
+                    android:text="Contact Now"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline3"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="77dp"
+                    android:background="@drawable/divider" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btncall"
+                        style="@style/contact_button"
+                        android:layout_marginTop="100dp"
+                        android:text="Call Now"
+                        app:backgroundTint="#15B76C"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/call_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/contact_button"
+                        android:layout_marginTop="17dp"
+                        android:onClick="gmailButton"
+                        android:text="Send Email"
+                        app:backgroundTint="#D44638"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/gmail_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnmessenger"
+                        style="@style/contact_button"
+                        android:layout_marginTop="17dp"
+                        android:text="Send Message"
+                        app:backgroundTint="#0084ff"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/facebook_messenger_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/contact_button"
+                        android:layout_marginTop="17dp"
+                        android:onClick="whatsappButton"
+                        android:text="DM on Whatsapp"
+                        app:backgroundTint="#25D366"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/whatsapp_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnfb"
+                        style="@style/contact_button"
+                        android:layout_marginTop="17dp"
+                        android:text="Visit facebook"
+                        app:backgroundTint="#3B5998"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/facebook_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnin"
+                        style="@style/contact_button"
+                        android:layout_marginTop="17dp"
+                        android:text="Visit Linkedin"
+                        app:backgroundTint="#0077B5"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/linkedin_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btngit"
+                        style="@style/contact_button"
+                        android:layout_marginTop="17dp"
+                        android:text="Visit Youtube"
+                        app:backgroundTint="#c4302b"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/youtube_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

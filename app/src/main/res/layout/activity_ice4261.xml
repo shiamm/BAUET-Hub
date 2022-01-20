@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/color_surface"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Department.ICE.Download.ClassMaterials.ICE4th.ICE4261Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="ICE4261\nInternet and Web Programming"
+            style="@style/TextView_black_to_white"
+            android:alpha="0.87"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cut_corner_four_side"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                style="@style/ripple_color">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingEnd="0dp">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingEnd="0dp">
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_1"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L01"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_2"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L02"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_3"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L03"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_4"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L04"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_5"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L05"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_6"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L06"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_7"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L07"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_8"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L08"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_9"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L09"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_10"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L10_11"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_11"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L12"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_12"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L13"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_13"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L14"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_14"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L15"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_15"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L16"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_16"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L17"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_17"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L18"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_18"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L19_20"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_19"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L28"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_20"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L29"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_21"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L30_31"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_22"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L36"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_23"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L37"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_24"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L38"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice4261_25"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="SM_ICE_4261_L39_40"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

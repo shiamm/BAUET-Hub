@@ -1,0 +1,1362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".Administration.AdministrativeOfficersMainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Administrative Officers"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                app:cardCornerRadius="10dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                style="@style/ripple_color"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    style="@style/Profile_BG"
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.textview.MaterialTextView
+                        style="@style/TextView_white"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="5dp"
+                        android:alpha=".87"
+                        android:fontFamily="@font/rubik_regular"
+                        android:gravity="center"
+                        android:text="Brig Gen M Mustafa Kamal
+\nM.Sc Engg (Mechanical) BUET, MBA (Dhaka University)"
+                        android:textAlignment="center"
+                        android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                        android:textSize="20sp" />
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:id="@+id/img_Mustafa"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        app:civ_border_color="@color/black"
+                        app:civ_border_width="3dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="260dp"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="10dp">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_black_to_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Vice Chancellor"
+                            android:textAlignment="center"
+                            android:textStyle="bold"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="22sp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Col Mohammad Hamidul Haque\npsc (Retd)"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Hamidul"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Treasurer"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="psc (Retd), MDS, MBA"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Lt. Col Shaikh Shameem Hussain (Retd)"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Shameem"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Registrar"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Dr. Mirza A.F.M. Rashidul Hasan"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Rashidul"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Dean, ECE"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Dr. Md. Shah Alam"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Shah"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Professor (Adjunct), Head, Dept. of BBA B.Com (Hons) M.Com in Accounting, Ph.D"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="MD Shahidul Islam"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Shahidul"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Controller of Examinations"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="LLB(Hons), LLM, M.Phil, Ph.D (Ongoing)"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Mohammed Golam Sarwar Bhuyan"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Golam"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Member"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Associate Professor &amp; Head, Dept of CSE and Proctor,BAUET"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Dr. Md. Sazzad Hossain"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Sazzad"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Chief Librarian"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="B.Sc (Hons), M.Sc Physics(JU),P.hD (JU)"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Al-Amin"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Amin"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Student Adviser"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Assistant Professor, Department of Sociology"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Ashraful Islam"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Ashraful"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Deputy Registrar (Academic)"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="B.Sc (Hons) in Geography, MBA in Marketing"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Imdad Hossain Khan"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Imdad"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Assistant Controller"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="MBA (Marketing), PGDPM"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Abdul Baten Khan"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Baten"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Sr. Admin Officer"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Masters of Social Science, B.A"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Kamrujjaman"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Kamrujjaman"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Sr. Accounts Officer(Office of Treasurer)"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="B.A (Hon) in IHC, M.A in IHC, MBA (Accounting)"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Palash Chandra Pal"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Chandra"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="System Engineer"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="M.Sc in CSE (PUST), B.Sc in CSE (ADUST)"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Abdul Aziz"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Abdul"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Section Officer"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="MBA in Pursuing (RU), M.A in Islamic History &amp; Culture, Rajshahi College"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    app:cardCornerRadius="10dp"
+                    app:cardElevation="5dp"
+                    app:cardUseCompatPadding="true"
+                    style="@style/ripple_color"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        style="@style/Profile_BG"
+                        android:layout_width="match_parent"
+                        android:layout_height="260dp"
+                        android:orientation="vertical">
+
+                        <com.google.android.material.textview.MaterialTextView
+                            style="@style/TextView_white"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="5dp"
+                            android:alpha=".87"
+                            android:fontFamily="@font/rubik_regular"
+                            android:gravity="center"
+                            android:text="Md. Sohidul Islam"
+                            android:textAlignment="center"
+                            android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                            android:textSize="20sp" />
+
+                        <de.hdodenhof.circleimageview.CircleImageView
+                            android:id="@+id/img_Sohidul"
+                            android:layout_width="150dp"
+                            android:layout_height="150dp"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dp"
+                            app:civ_border_color="@color/black"
+                            app:civ_border_width="3dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="260dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:padding="10dp">
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="5dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Asst. Librarian"
+                                android:textAlignment="center"
+                                android:textStyle="bold"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="22sp" />
+
+                            <com.google.android.material.textview.MaterialTextView
+                                style="@style/TextView_black_to_white"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:layout_marginTop="25dp"
+                                android:layout_marginBottom="20dp"
+                                android:alpha=".87"
+                                android:fontFamily="@font/rubik_regular"
+                                android:gravity="center"
+                                android:text="Masters in Information Science &amp; Library Management, RU , M. Sc in Physics, B. Sc in Physics"
+                                android:textAlignment="center"
+                                android:textAppearance="@style/TextAppearance.BAUET.Body1"
+                                android:textSize="20sp" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

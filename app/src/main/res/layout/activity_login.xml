@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Sign In"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="15dp"
+                android:background="@drawable/cut_corner_four_side"
+                android:orientation="vertical">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                app:endIconMode="clear_text"
+                app:errorContentDescription="error"
+                app:errorEnabled="true"
+                app:errorTextColor="@color/red"
+                app:startIconDrawable="@drawable/gmail_24px">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Enter Your Email"
+                    android:textSize="16sp"
+                    android:hapticFeedbackEnabled="true"
+                    android:fontFamily="@font/rubik_regular"
+                    android:inputType="textEmailAddress" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                app:counterEnabled="false"
+                app:counterMaxLength="12"
+                app:counterOverflowTextColor="@color/red"
+                app:endIconMode="password_toggle"
+                app:errorEnabled="true"
+                app:errorTextColor="@color/red"
+                app:startIconDrawable="@drawable/password_24px">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/login_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="16sp"
+                    android:maxLength="12"
+                    android:hint="Enter Password"
+                    android:hapticFeedbackEnabled="true"
+                    android:fontFamily="@font/rubik_regular"
+                    android:inputType="textPassword" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/button_login"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Log In"
+                android:textAllCaps="false"
+                app:elevation="6dp"
+                android:hapticFeedbackEnabled="true"
+                android:fontFamily="@font/rubik_medium"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                android:textSize="22sp"
+                app:cornerRadius="5dp"
+                app:rippleColor="@color/primary"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="OR"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center"
+                    android:fontFamily="@font/rubik_light"
+                    android:textSize="16sp"/>
+
+                <com.google.android.gms.common.SignInButton
+                    android:layout_width="match_parent"
+                    android:id="@+id/signin"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_height="wrap_content"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't have an account?"
+                android:layout_gravity="center"
+                android:fontFamily="@font/rubik_light"
+                android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/login_to_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=" Sign up."
+                        android:layout_gravity="center"
+                        android:fontFamily="@font/rubik_bold"
+                        android:textSize="16sp"/>
+            </LinearLayout>
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/button_adminlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:text="Log In As Admin"
+                    android:textAllCaps="false"
+                    app:elevation="6dp"
+                    android:hapticFeedbackEnabled="true"
+                    android:fontFamily="@font/rubik_medium"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:textSize="22sp"
+                    app:cornerRadius="5dp"
+                    app:rippleColor="@color/primary"/>
+
+                <ProgressBar
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:id="@+id/idPBLoading"
+                    android:indeterminate="true"
+                    android:indeterminateDrawable="@drawable/progress_back"
+                    android:visibility="gone"/>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>

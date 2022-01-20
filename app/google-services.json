@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "189369497145",
+    "project_id": "bauet-app-8d498",
+    "storage_bucket": "bauet-app-8d498.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:189369497145:android:8b7521d33cf4bda3a33fe8",
+        "android_client_info": {
+          "package_name": "com.edu.bauet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "189369497145-nkn15fugr90g1b0o6v55bveft4hvcvrs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edu.bauet",
+            "certificate_hash": "28a3b95d022c4fba8687171dd01f4cac266d0c1b"
+          }
+        },
+        {
+          "client_id": "189369497145-vtboqv12l4tibb7eu6t5idnk37a6vee6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDa4rcvsCaPGeQr640hc-pc_7omDLTl9rk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "189369497145-vtboqv12l4tibb7eu6t5idnk37a6vee6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

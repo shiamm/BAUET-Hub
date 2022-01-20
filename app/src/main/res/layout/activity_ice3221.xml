@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    style="@style/color_surface"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".Department.ICE.Download.ClassMaterials.ICE6th.ICE3221Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="ICE3221\nSwitching and Routing"
+            style="@style/TextView_black_to_white"
+            android:alpha="0.87"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="14dp"
+        android:paddingRight="14dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/cut_corner_four_side"
+            android:orientation="vertical">
+
+            <com.google.android.material.card.MaterialCardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="2dp"
+                app:cardCornerRadius="14dp"
+                app:cardElevation="5dp"
+                app:cardUseCompatPadding="true"
+                style="@style/ripple_color">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingEnd="0dp">
+
+                    <androidx.core.widget.NestedScrollView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            android:paddingEnd="0dp">
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_1"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Chap2nd"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_2"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Chap4"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_3"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Chapt5"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_4"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Chapter3"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_5"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="HUB_Bridge"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_6"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="IPV4_Datagram_Format"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_7"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Logical Address"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_8"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="MATH_IP_Address"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_9"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="ROUTER"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_10"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="S &amp; R - 1st chapter"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_11"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="Side_Tone"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
+                                android:id="@+id/btn_ice3221_12"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="VLAN"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                        </LinearLayout>
+                    </androidx.core.widget.NestedScrollView>
+
+                </LinearLayout>
+            </com.google.android.material.card.MaterialCardView>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

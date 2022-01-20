@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    style="@style/color_surface"
+    tools:context=".About_Us.Contact_Us_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/TextView_black_to_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha=".87"
+            android:fontFamily="@font/rubik_bold"
+            android:gravity="center"
+            android:text="Contact"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/cut_corner_four_side"
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingTop="0dp"
+        android:paddingRight="7dp">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="0dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/teacher_textview"
+                    android:layout_marginTop="25dp"
+                    android:drawableStart="@drawable/outline_call_black_24"
+                    android:text="+880 1708-503504 \n+880 1708-503503" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/teacher_textview"
+                    android:layout_marginTop="25dp"
+                    android:drawableStart="@drawable/email_48px"
+                    android:text="info@bauet.ac.bd" />
+
+                <com.google.android.material.textview.MaterialTextView
+                    style="@style/teacher_textview"
+                    android:layout_marginTop="25dp"
+                    android:drawableStart="@drawable/address_48px"
+                    android:text="Qadirabad Cantonment, \nNatore, Bangladesh." />
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <FrameLayout
+                android:id="@+id/sheet"
+                style="@style/Bottom_Sheet_BG"
+                android:layout_width="match_parent"
+                android:layout_height="475dp"
+                app:behavior_hideable="false"
+                app:behavior_peekHeight="83dp"
+                app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+
+                <com.google.android.material.button.MaterialButton
+                    android:layout_width="60dp"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:alpha="0.77"
+                    android:layout_gravity="center_horizontal"
+                    app:backgroundTint="@color/medium_gray"
+                    app:cornerRadius="5dp" />
+
+                <TextView
+                    style="@style/TextView_black_to_white"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="25dp"
+                    android:alpha="0.77"
+                    android:fontFamily="@font/rubik_bold"
+                    android:gravity="center"
+                    android:text="Contact Now"
+                    android:textAppearance="@style/TextAppearance.BAUET.Headline3"
+                    android:textSize="24sp"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="5dp"
+                    android:layout_marginTop="77dp"
+                    android:background="@drawable/divider"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btncall1"
+                        style="@style/contact_button"
+                        android:layout_marginTop="100dp"
+                        android:text="+88 01708 503504"
+                        app:backgroundTint="#15B76C"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/call_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btncall2"
+                        style="@style/contact_button"
+                        android:layout_marginTop="25dp"
+                        android:text="+88 01708 503503"
+                        app:backgroundTint="#15B76C"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/call_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/contact_button"
+                        android:layout_marginTop="25dp"
+                        android:onClick="gmailButton"
+                        android:text="info@bauet.ac.bd"
+                        app:backgroundTint="#D44638"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/gmail_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                    <com.google.android.material.button.MaterialButton
+                        style="@style/contact_button"
+                        android:layout_marginTop="25dp"
+                        android:id="@+id/btnmaps"
+                        android:text="Location in Maps"
+                        app:backgroundTint="#DD483E"
+                        app:cornerRadius="30dp"
+                        app:icon="@drawable/locationpin_48px"
+                        app:iconTint="?attr/colorOnSurface"
+                        app:rippleColor="@color/medium_gray" />
+
+                </LinearLayout>
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+</LinearLayout>
