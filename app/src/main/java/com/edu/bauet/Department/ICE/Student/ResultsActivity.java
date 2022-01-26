@@ -11,7 +11,7 @@ import com.edu.bauet.R;
 import com.google.android.material.button.MaterialButton;
 
 public class ResultsActivity extends AppCompatActivity {
-    private MaterialButton result_1,result_2;
+    private MaterialButton result_1,result_2, result_3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -31,6 +31,15 @@ public class ResultsActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/bauet-app-8d498.appspot.com/o/Other%2FICE-Result-Gazettee-Final-Summer-2020.pdf?alt=media&token=7acbb130-6523-4972-90d6-bce430561a8b"));
+                startActivity(intent);
+            }
+        });
+
+        result_3=findViewById(R.id.result_3);
+        result_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://firebasestorage.googleapis.com/v0/b/bauet-app-8d498.appspot.com/o/Other%2FICE-3rd-to-8th-semeter-Summer-2021.pdf?alt=media&token=51998b80-c996-417b-b7e0-c7da28459f72"));
                 startActivity(intent);
             }
         });

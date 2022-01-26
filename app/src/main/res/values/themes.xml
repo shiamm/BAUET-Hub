@@ -105,6 +105,9 @@
 
     <style name="ripple_color">
         <item name="rippleColor">#e0e7c2</item>
+        <item name="strokeColor">?attr/colorOnSurface</item>
+        <item name="strokeWidth">2dp</item>
+        <item name="alpha">0.87</item>
     </style>
 
     <style name="color_notice">
@@ -140,3 +143,4 @@
     </style>
 
 </resources>
+

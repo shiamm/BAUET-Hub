@@ -68,6 +68,25 @@
                             android:paddingEnd="0dp">
 
                             <com.google.android.material.button.MaterialButton
+                                android:id="@+id/result_3"
+                                style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="start"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:alpha=".87"
+                                android:textAllCaps="false"
+                                android:fontFamily="@font/rubik_medium"
+                                android:text="ICE-3rd-to-8th-semeter-Summer-2021"
+                                android:textAlignment="viewStart"
+                                android:textSize="14sp"
+                                app:cornerRadius="5dp"
+                                app:icon="@drawable/download_24px"
+                                app:rippleColor="@color/primary" />
+
+                            <com.google.android.material.button.MaterialButton
                                 android:id="@+id/result_1"
                                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                                 android:layout_width="match_parent"
@@ -92,7 +111,7 @@
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="start"
-                                android:layout_marginTop="30dp"
+                                android:layout_marginTop="10dp"
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginRight="10dp"
                                 android:alpha=".87"
