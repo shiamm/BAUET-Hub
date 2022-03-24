@@ -26,8 +26,8 @@
                 android:layout_gravity="center"
                 android:layout_margin="65dp"
                 android:src="@drawable/partha"
-                app:civ_border_color="@color/white"
-                app:civ_border_width="3dp">
+                style="@style/color_circleimg"
+                app:civ_border_width="2dp">
 
             </de.hdodenhof.circleimageview.CircleImageView>
 
@@ -71,7 +71,7 @@
                         style="@style/teacher_textview"
                         android:layout_marginTop="25dp"
                         android:drawableStart="@drawable/outline_stars_black_24"
-                        android:text="Senior Lecturer" />
+                        android:text="Assistant Professor" />
 
                     <com.google.android.material.textview.MaterialTextView
                         style="@style/teacher_textview"

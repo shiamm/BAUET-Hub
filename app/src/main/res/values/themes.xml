@@ -114,6 +114,10 @@
         <item name="android:background">#f9faf2</item>
     </style>
 
+    <style name="color_circleimg">
+        <item name="civ_border_color">@color/background_dark</item>
+    </style>
+
     <style name="teacher_textview">
         <item name="android:textColor">@color/black</item>
         <item name="android:layout_width">match_parent</item>

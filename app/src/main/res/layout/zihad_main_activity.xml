@@ -27,8 +27,8 @@
                 android:layout_gravity="center"
                 android:layout_margin="65dp"
                 android:src="@drawable/zihad"
-                app:civ_border_color="@color/white"
-                app:civ_border_width="3dp">
+                style="@style/color_circleimg"
+                app:civ_border_width="2dp">
 
             </de.hdodenhof.circleimageview.CircleImageView>
 

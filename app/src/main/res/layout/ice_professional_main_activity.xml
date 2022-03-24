@@ -112,7 +112,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/rubaiyat" />
+                            android:src="@drawable/rubaiyat"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -183,7 +185,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/rubel" />
+                            android:src="@drawable/rubel"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
 
 
                     </LinearLayout>
@@ -256,7 +260,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/partha" />
+                            android:src="@drawable/partha"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
 
 
                     </LinearLayout>
@@ -329,7 +335,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/miti" />
+                            android:src="@drawable/miti"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
 
 
                     </LinearLayout>
@@ -402,7 +410,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/lincon" />
+                            android:src="@drawable/lincon"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
 
 
                     </LinearLayout>
@@ -474,7 +484,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/nazmul" />
+                            android:src="@drawable/nazmul"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -545,7 +557,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/zihad" />
+                            android:src="@drawable/zihad"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -615,7 +629,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/kabir" />
+                            android:src="@drawable/kabir"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -685,7 +701,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/minhaz" />
+                            android:src="@drawable/minhaz"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
 
@@ -755,7 +773,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/arafat" />
+                            android:src="@drawable/arafat"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
@@ -826,7 +846,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/imran" />
+                            android:src="@drawable/imran"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
@@ -897,7 +919,9 @@
                             android:layout_width="0dp"
                             android:layout_height="match_parent"
                             android:layout_weight="1.3"
-                            android:src="@drawable/mumenin" />
+                            android:src="@drawable/mumenin"
+                            style="@style/color_circleimg"
+                            app:civ_border_width="2dp"/>
                     </LinearLayout>
 
                 </com.google.android.material.card.MaterialCardView>
