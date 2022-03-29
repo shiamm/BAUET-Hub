@@ -48,10 +48,9 @@ public class ZihadMainActivity extends AppCompatActivity implements View.OnClick
             startActivity(intent);
             overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         }  else if (v.getId() == R.id.btnin) {
-
-            Snackbar snackbar=Snackbar.make(v,"Zihadur Rahman is not available in Linkedin.",Snackbar.LENGTH_LONG);
-            snackbar.setAnimationMode(BaseTransientBottomBar.ANIMATION_MODE_SLIDE);
-            snackbar.show();
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.linkedin.com/in/md-zihadur-rahman-875a46163/"));
+            startActivity(intent);
+            overridePendingTransition(R.anim.slide_in_right, R.anim.slide_out_left);
         } else if (v.getId() == R.id.btncall) {
             Intent intent = new Intent(Intent.ACTION_DIAL, Uri.parse("tel:01309622847"));
             startActivity(intent);
