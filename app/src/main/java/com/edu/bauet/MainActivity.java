@@ -11,7 +11,7 @@ import android.view.WindowManager;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 public class MainActivity extends AppCompatActivity {
-    int splash_time = 2000;
+    int splash_time = 300;
 
     @SuppressLint("ResourceAsColor")
     @Override

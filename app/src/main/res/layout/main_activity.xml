@@ -16,17 +16,5 @@
         android:contentDescription="@string/description"
         android:src="@drawable/logo"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
 
-        <com.google.android.material.progressindicator.LinearProgressIndicator
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="40dp"
-            android:indeterminate="true"
-            app:trackCornerRadius="8dp"
-            app:trackThickness="6dp" />
-    </LinearLayout>
 </LinearLayout>

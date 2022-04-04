@@ -175,7 +175,10 @@
                     android:indeterminate="true"
                     android:indeterminateDrawable="@drawable/progress_back"
                     android:visibility="gone"/>
+
             </LinearLayout>
+
+
         </androidx.core.widget.NestedScrollView>
     </LinearLayout>
 </LinearLayout>
