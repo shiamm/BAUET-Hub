@@ -23,7 +23,7 @@
             android:alpha=".87"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:text="Sign Up"
+            android:text="@string/sign_up"
             android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -65,10 +65,10 @@
                         android:id="@+id/register_Name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Enter Name"
-                        android:textSize="16sp"
                         android:fontFamily="@font/rubik_regular"
-                        android:inputType="textPersonName" />
+                        android:hint="@string/enter_name"
+                        android:inputType="textPersonName"
+                        android:textSize="16sp" />
 
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -88,10 +88,10 @@
                         android:id="@+id/register_email"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="16sp"
                         android:fontFamily="@font/rubik_regular"
-                        android:hint="Enter Email"
-                        android:inputType="textEmailAddress" />
+                        android:hint="@string/enter_email"
+                        android:inputType="textEmailAddress"
+                        android:textSize="16sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -104,20 +104,20 @@
                     app:counterMaxLength="12"
                     app:counterOverflowTextColor="@color/red"
                     app:endIconMode="password_toggle"
-                    app:errorTextColor="@color/red"
                     app:errorContentDescription="error"
                     app:errorEnabled="true"
+                    app:errorTextColor="@color/red"
                     app:startIconDrawable="@drawable/password_24px">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/register_pass"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:textSize="16sp"
-                        android:maxLength="12"
                         android:fontFamily="@font/rubik_regular"
-                        android:hint="Enter Password"
-                        android:inputType="textPassword" />
+                        android:hint="@string/enter_password"
+                        android:inputType="textPassword"
+                        android:maxLength="12"
+                        android:textSize="16sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -130,73 +130,74 @@
                     app:counterMaxLength="12"
                     app:counterOverflowTextColor="@color/red"
                     app:endIconMode="password_toggle"
+                    app:errorContentDescription="error"
                     app:errorEnabled="true"
                     app:errorTextColor="@color/red"
-                    app:errorContentDescription="error"
                     app:startIconDrawable="@drawable/password_24px">
 
                     <com.google.android.material.textfield.TextInputEditText
                         android:id="@+id/register_con_pass"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Confirm Password"
-                        android:textSize="16sp"
-                        android:maxLength="12"
                         android:fontFamily="@font/rubik_regular"
-                        android:inputType="textPassword" />
+                        android:hint="@string/confirm_password"
+                        android:inputType="textPassword"
+                        android:maxLength="12"
+                        android:textSize="16sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/register"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Register"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:textAllCaps="false"
-                    android:hapticFeedbackEnabled="true"
                     android:fontFamily="@font/rubik_medium"
-                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:hapticFeedbackEnabled="true"
+                    android:text="@string/register"
+                    android:textColor="?attr/colorOnBackground"
+                    android:textAllCaps="false"
                     android:textSize="22sp"
                     app:cornerRadius="5dp"
-                    app:rippleColor="@color/primary"/>
+                    app:rippleColor="@color/primary" />
 
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:gravity="center"
                     android:layout_marginTop="10dp"
+                    android:gravity="center"
                     android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Have an account?"
                         android:layout_gravity="center"
                         android:fontFamily="@font/rubik_light"
-                        android:textSize="16sp"/>
+                        android:text="@string/have_an_account"
+                        android:textSize="16sp" />
 
                     <TextView
                         android:id="@+id/login"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=" Log in."
-                        android:fontFamily="@font/rubik_medium"
-                        android:textSize="16sp"/>
+                        android:layout_marginStart="4dp"
+                        android:fontFamily="@font/rubik_bold"
+                        android:text="@string/log_inn"
+                        android:textSize="16sp" />
                 </LinearLayout>
 
                 <ProgressBar
+                    android:id="@+id/idPBLoading"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:id="@+id/idPBLoading"
                     android:indeterminate="true"
                     android:indeterminateDrawable="@drawable/progress_back"
-                    android:visibility="gone"/>
-
+                    android:visibility="gone" />
 
 
             </LinearLayout>

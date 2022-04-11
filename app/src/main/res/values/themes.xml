@@ -26,6 +26,7 @@
         <item name="android:statusBarColor">#e1e2df</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
 
+
         <!--Material type attributes-->
         <item name="textAppearanceHeadline1">@style/TextAppearance.BAUET.Headline1</item>
         <item name="textAppearanceHeadline2">@style/TextAppearance.BAUET.Headline2</item>
@@ -67,10 +68,6 @@
         <item name="android:textColor">@color/black</item>
     </style>
 
-    <style name="TextView_white_to_black">
-        <item name="android:textColor">@color/white</item>
-    </style>
-
     <style name="Bottom_Sheet_BG">
         <item name="android:background">@drawable/bottom_sheet_rounded</item>
     </style>
@@ -100,7 +97,7 @@
     </style>
 
     <style name="color_surface">
-       <item name="android:background">#e1e2df</item>
+        <item name="android:background">#e1e2df</item>
     </style>
 
     <style name="ripple_color">

@@ -1,17 +1,17 @@
 package com.edu.bauet;
 
-import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
-import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.edu.bauet.Database.AdminLogInActivity;
 import com.google.android.gms.auth.api.signin.GoogleSignIn;
@@ -39,7 +39,7 @@ public class LoginActivity extends AppCompatActivity {
     TextView register;
     FirebaseAuth firebaseAuth;
     private ProgressBar loadingPB;
-    SignInButton signin;
+    SignInButton SignInButton;
 
     GoogleSignInOptions gso;
     GoogleSignInClient signInClient;
@@ -49,7 +49,8 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
-        signin = findViewById(R.id.signin);
+        SignInButton = findViewById(R.id.SignInButton);
+        SignInButton.setStyle(SignInButton.SIZE_WIDE, SignInButton.COLOR_DARK);
         gso=new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_SIGN_IN)
                 .requestIdToken("189369497145-vtboqv12l4tibb7eu6t5idnk37a6vee6.apps.googleusercontent.com")
                 .requestEmail()
@@ -61,7 +62,7 @@ public class LoginActivity extends AppCompatActivity {
             startActivity(new Intent(this, HomeActivity.class));
             finish();
         }
-        signin.setOnClickListener(new View.OnClickListener() {
+        SignInButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 loadingPB.setVisibility(View.VISIBLE);

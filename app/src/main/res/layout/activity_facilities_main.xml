@@ -31,10 +31,10 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingLeft="7dp"
-        android:paddingRight="7dp"
         android:background="@drawable/cut_corner_four_side"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:paddingLeft="7dp"
+        android:paddingRight="7dp">
 
         <androidx.core.widget.NestedScrollView
             android:layout_width="match_parent"
@@ -49,6 +49,7 @@
 
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_clubs"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -57,8 +58,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -82,8 +82,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_hall"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -92,8 +94,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -117,8 +118,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_library"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -127,8 +130,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -151,8 +153,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_health"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -161,8 +165,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -186,8 +189,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_transport"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -196,8 +201,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -221,8 +225,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_cafeteria"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -231,8 +237,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -256,8 +261,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_gym"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -266,8 +273,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -291,8 +297,10 @@
                             android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
+
                 <com.google.android.material.card.MaterialCardView
                     android:id="@+id/card_bank"
+                    style="@style/ripple_color"
                     android:layout_width="match_parent"
                     android:layout_height="130dp"
                     android:layout_marginLeft="2dp"
@@ -301,8 +309,7 @@
                     android:layout_marginBottom="10dp"
                     app:cardCornerRadius="16dp"
                     app:cardElevation="5dp"
-                    app:cardUseCompatPadding="true"
-                    style="@style/ripple_color">
+                    app:cardUseCompatPadding="true">
 
                     <LinearLayout
                         style="@style/menu"
@@ -323,10 +330,10 @@
                             android:textAlignment="center"
                             android:textAppearance="@style/TextAppearance.BAUET.Headline6"
                             android:textSize="20sp"
-                            android:textStyle="bold"/>
+                            android:textStyle="bold" />
                     </LinearLayout>
                 </com.google.android.material.card.MaterialCardView>
-        </LinearLayout>
-    </androidx.core.widget.NestedScrollView>
-</LinearLayout>
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
     </LinearLayout>
+</LinearLayout>

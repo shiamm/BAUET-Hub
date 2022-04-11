@@ -24,6 +24,8 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:ignore="NewApi">#121212</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
+        <item name="android:navigationBarColor">#121212</item>
+
 
         <!-- Transition Animation. -->
         <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
@@ -64,10 +66,6 @@
 
     <style name="TextView_black_to_white">
         <item name="android:textColor">@color/white</item>
-    </style>
-
-    <style name="TextView_white_to_black">
-        <item name="android:textColor">@color/black</item>
     </style>
 
     <style name="Bottom_Sheet_BG">

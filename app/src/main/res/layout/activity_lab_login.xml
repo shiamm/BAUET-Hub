@@ -23,7 +23,7 @@
             android:alpha=".87"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:text="Log In"
+            android:text="@string/log_in"
             android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -65,11 +65,13 @@
                         android:id="@+id/txt_id"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="Enter Your ID"
-                        android:inputType="number"
                         android:fontFamily="@font/rubik_regular"
+                        android:hint="@string/enter_your_id"
+                        android:inputType="number"
+                        android:maxLength="8"
+                        android:textColorHint="#546E7A"
                         android:textSize="16sp"
-                        android:maxLength="8" />
+                        tools:ignore="TextContrastCheck" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -85,29 +87,32 @@
                     app:startIconDrawable="@drawable/lock">
 
                     <com.google.android.material.textfield.TextInputEditText
-                        android:inputType="textPassword"
                         android:id="@+id/txt_password"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:fontFamily="@font/rubik_regular"
-                        android:textSize="16sp"
-                        android:hint="Enter Your Batch Password"
-                        android:maxLength="8" />
+                        android:hint="@string/enter_your_batch_password"
+                        android:inputType="textPassword"
+                        android:maxLength="8"
+                        android:textColorHint="#546E7A"
+                        android:textSize="16sp" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btn_login"
+                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:text="Log In"
                     android:fontFamily="@font/rubik_bold"
-                    style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+                    android:text="@string/log_in"
+                    android:textAllCaps="false"
+                    android:textColor="?attr/colorOnBackground"
                     android:textSize="24sp"
                     app:cornerRadius="5dp"
-                    android:textAllCaps="false"
-                    app:rippleColor="@color/primary" />
+                    app:rippleColor="@color/primary"
+                    tools:ignore="DuplicateSpeakableTextCheck" />
 
                 <TextView
                     android:id="@+id/txt_attempts"
@@ -115,7 +120,7 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="10dp"
                     android:gravity="center"
-                    android:text="Number of incorrect attempts"
+                    android:text="@string/number_of_incorrect_attempts"
                     android:textSize="18sp"/>
 
                 <TextView
@@ -125,7 +130,7 @@
                     android:layout_marginTop="20dp"
                     android:gravity="center"
                     android:textColor="#0071BC"
-                    android:text="Q. How can i get password?"
+                    android:text="@string/q_how_can_i_get_password"
                     android:textSize="18sp"/>
 
             </LinearLayout>

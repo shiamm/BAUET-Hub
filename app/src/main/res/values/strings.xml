@@ -8,19 +8,11 @@
     <string name="administration">Administration</string>
     <string name="department">Department</string>
     <string name="facilities">Facilities</string>
-    <string name="archive">Archive</string>
     <string name="gallery">Gallery</string>
-    <string name="news_and_event">News &amp; Event</string>
     <string name="events">Events</string>
-    <string name="contact_us">Contact Us</string>
-    <string name="faculty_members">Faculty Members</string>
-    <string name="exit">Exit</string>
-    <string name="student">Student</string>
     <string name="news">News</string>
     <string name="about">About</string>
-    <string name="notice">Notice</string>
     <string name="our_Professionals">Our Professionals</string>
-    <string name="Professionals">Professionals</string>
     <string name="ice">Information And Communication Engineering (ICE)</string>
     <string name="OpenNavDrawer">open nav</string>
     <string name="CloseNavDrawer">close nav</string>
@@ -110,7 +102,38 @@
 \n\n• 14 active clubs along with BNCC for co-curricular activities
 \n\n• Play grounds and gymnasium for games and sports
 \n\n• Financial assistance for GPA 5 in both SSC &amp; HSC</string>
-    <string name="hello_world">Hello Square World!</string>
+    <string name="website">Website</string>
+    <string name="wikipedia">Wikipedia</string>
+    <string name="facebook">Facebook</string>
+    <string name="youtube">Youtube</string>
+    <string name="linkedin">Linkedin</string>
+    <string name="bauet_short">BAUET</string>
+    <string name="about_us_u">About Us</string>
+    <string name="green_background_depicts_greeneries_of_bangladesh">Green Background: Depicts greeneries of Bangladesh</string>
+    <string name="bar_and_wave_main_branches_of_engineering">Bar and Wave: Main Branches of Engineering</string>
+    <string name="cross_sword_with_water_lily_symbol_of_bangladesh_army_with_national_flower_it_signifies_army_sponsorship">Cross Sword with Water Lily: Symbol of Bangladesh Army with national flower. It signifies Army sponsorship.</string>
+    <string name="wheel_progress">Wheel: Progress</string>
+    <string name="moto_knowledge_and_technology">Moto: Knowledge and Technology</string>
+    <string name="bauet_logo">BAUET Logo</string>
+
+    <string name="enter_your_batch_password">Enter Your Batch Password</string>
+    <string name="log_in">Log In</string>
+    <string name="number_of_incorrect_attempts">Number of incorrect attempts</string>
+    <string name="q_how_can_i_get_password">Q. How can i get password?</string>
+    <string name="enter_your_id">Enter Your ID</string>
+    <string name="register">Register</string>
+    <string name="log_inn">Log in.</string>
+    <string name="have_an_account">Have an account?</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_upu">Sign up.</string>
+    <string name="log_in_as_admin">Log In As Admin</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="or">OR</string>
+    <string name="enter_your_email">Enter Your Email</string>
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

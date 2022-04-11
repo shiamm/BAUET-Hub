@@ -10,7 +10,7 @@ import android.view.WindowManager;
 
 import com.google.firebase.messaging.FirebaseMessaging;
 
-public class MainActivity extends AppCompatActivity {
+public class SplashScreenActivity extends AppCompatActivity {
     int splash_time = 300;
 
     @SuppressLint("ResourceAsColor")
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void run() {
 
-                startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                startActivity(new Intent(SplashScreenActivity.this, LoginActivity.class));
                 finish();
             }
         }, splash_time);

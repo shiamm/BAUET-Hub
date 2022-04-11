@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:title="BAUET"></item>
+    <item android:title="@string/bauet_short" />
 
     <item android:id="@+id/nav_website"
-        android:title="Website"
+        android:title="@string/website"
         android:icon="@drawable/website_48px">
     </item>
 
     <item android:id="@+id/nav_wikipedia"
-        android:title="Wikipedia"
+        android:title="@string/wikipedia"
         android:icon="@drawable/wikipedia_48px">
     </item>
 
     <item android:id="@+id/nav_fb"
-        android:title="Facebook"
+        android:title="@string/facebook"
         android:icon="@drawable/facebook_48px">
     </item>
 
     <item android:id="@+id/nav_youtube"
-        android:title="Youtube"
+        android:title="@string/youtube"
         android:icon="@drawable/youtube_48px">
     </item>
 
     <item android:id="@+id/nav_linkdin"
-        android:title="Linkedin"
+        android:title="@string/linkedin"
         android:icon="@drawable/linkedin_48px">
     </item>
 

@@ -23,7 +23,7 @@
             android:alpha=".87"
             android:fontFamily="@font/rubik_bold"
             android:gravity="center"
-            android:text="Sign In"
+            android:text="@string/sign_in"
             android:textSize="22sp"
             android:textStyle="bold" />
     </LinearLayout>
@@ -62,7 +62,7 @@
                     android:id="@+id/login_email"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="Enter Your Email"
+                    android:hint="@string/enter_your_email"
                     android:textSize="16sp"
                     android:hapticFeedbackEnabled="true"
                     android:fontFamily="@font/rubik_regular"
@@ -89,7 +89,7 @@
                     android:layout_marginTop="10dp"
                     android:textSize="16sp"
                     android:maxLength="12"
-                    android:hint="Enter Password"
+                    android:hint="@string/enter_password"
                     android:hapticFeedbackEnabled="true"
                     android:fontFamily="@font/rubik_regular"
                     android:inputType="textPassword" />
@@ -101,10 +101,11 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="10dp"
-                android:text="Log In"
+                android:text="@string/log_in"
                 android:textAllCaps="false"
                 app:elevation="6dp"
                 android:hapticFeedbackEnabled="true"
+                android:textColor="?attr/colorOnBackground"
                 android:fontFamily="@font/rubik_medium"
                 style="@style/Widget.MaterialComponents.Button.OutlinedButton"
                 android:textSize="22sp"
@@ -114,7 +115,7 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="OR"
+                    android:text="@string/or"
                     android:layout_marginTop="10dp"
                     android:layout_gravity="center"
                     android:fontFamily="@font/rubik_light"
@@ -122,7 +123,7 @@
 
                 <com.google.android.gms.common.SignInButton
                     android:layout_width="match_parent"
-                    android:id="@+id/signin"
+                    android:id="@+id/SignInButton"
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="10dp"
                     android:layout_height="wrap_content"/>
@@ -137,7 +138,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Don't have an account?"
+                android:text="@string/don_t_have_an_account"
                 android:layout_gravity="center"
                 android:fontFamily="@font/rubik_light"
                 android:textSize="16sp"/>
@@ -146,7 +147,8 @@
                         android:id="@+id/login_to_register"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text=" Sign up."
+                        android:text="@string/sign_upu"
+                        android:layout_marginStart="4dp"
                         android:layout_gravity="center"
                         android:fontFamily="@font/rubik_bold"
                         android:textSize="16sp"/>
@@ -157,9 +159,10 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
                     android:layout_marginTop="10dp"
-                    android:text="Log In As Admin"
+                    android:text="@string/log_in_as_admin"
                     android:textAllCaps="false"
                     app:elevation="6dp"
+                    android:textColor="?attr/colorOnBackground"
                     android:hapticFeedbackEnabled="true"
                     android:fontFamily="@font/rubik_medium"
                     style="@style/Widget.MaterialComponents.Button.OutlinedButton"
