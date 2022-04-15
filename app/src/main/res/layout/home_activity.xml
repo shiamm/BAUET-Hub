@@ -356,7 +356,7 @@
                                         android:fontFamily="@font/rubik_medium"
                                         android:lines="1"
                                         android:paddingTop="3dp"
-                                        android:text="Notice"
+                                        android:text="@string/notice"
                                         android:textAlignment="center"
                                         android:textSize="18sp"
                                         android:textStyle="bold" />
@@ -559,7 +559,7 @@
                                         android:fontFamily="@font/rubik_medium"
                                         android:lines="1"
                                         android:paddingTop="8dp"
-                                        android:text="Contact"
+                                        android:text="@string/contact"
                                         android:textAlignment="center"
                                         android:textSize="18sp"
                                         android:textStyle="bold" />
@@ -603,7 +603,7 @@
                                         android:fontFamily="@font/rubik_medium"
                                         android:lines="1"
                                         android:paddingTop="8dp"
-                                        android:text="Log Out"
+                                        android:text="@string/log_out"
                                         android:textAlignment="center"
                                         android:textSize="18sp"
                                         android:textStyle="bold" />

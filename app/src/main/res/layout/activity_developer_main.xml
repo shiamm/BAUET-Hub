@@ -26,7 +26,7 @@
                 android:layout_gravity="top"
                 android:background="@drawable/dev_photo"
                 android:scaleType="centerCrop"
-                android:src="@drawable/img_dev"/>
+                android:src="@drawable/img_dev" />
         </LinearLayout>
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
