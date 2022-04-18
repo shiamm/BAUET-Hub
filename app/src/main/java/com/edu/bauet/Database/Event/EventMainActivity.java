@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.edu.bauet.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -28,16 +29,19 @@ public class EventMainActivity extends AppCompatActivity {
     private ArrayList<EventData> list;
     private EventAdapter adapter;
     private DatabaseReference reference;
+    ShimmerFrameLayout shimmerFrameLayout;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_event_main);
 
         EventRecycler = findViewById(R.id.EventRecycler);
-        Eventprogressbar = findViewById(R.id.Eventprogressbar);
+       // Eventprogressbar = findViewById(R.id.Eventprogressbar);
         reference= FirebaseDatabase.getInstance().getReference().child("Event");
         EventRecycler.setLayoutManager(new LinearLayoutManager(this));
         EventRecycler.setHasFixedSize(true);
+        shimmerFrameLayout=findViewById(R.id.shimmer);
+        shimmerFrameLayout.startShimmer();
 
         getEvent();
     }
@@ -54,7 +58,9 @@ public class EventMainActivity extends AppCompatActivity {
                 }
                 adapter = new EventAdapter(EventMainActivity.this,list);
                 adapter.notifyDataSetChanged();
-                Eventprogressbar.setVisibility(View.GONE);
+                shimmerFrameLayout.stopShimmer();
+                shimmerFrameLayout.setVisibility(View.GONE);
+              //  Eventprogressbar.setVisibility(View.GONE);
                 EventRecycler.setAdapter(adapter);
             }
 

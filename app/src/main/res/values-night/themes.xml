@@ -25,6 +25,7 @@
         <item name="android:statusBarColor" tools:ignore="NewApi">#121212</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">false</item>
         <item name="android:navigationBarColor">#121212</item>
+        <item name="android:windowSplashScreenBackground">?attr/background</item>
 
 
         <!-- Transition Animation. -->
@@ -144,6 +145,10 @@
         <item name="android:textAppearance">@style/TextAppearance.BAUET.Subtitle1</item>
         <item name="android:textSize">22sp</item>
         <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="rounded_square">
+        <item name="cornerSize">5%</item>
     </style>
 
 

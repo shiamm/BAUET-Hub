@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.edu.bauet.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -26,6 +27,7 @@ public class NoticeMainActivity extends AppCompatActivity {
     private ProgressBar dltnoticeprogressbar;
     private ArrayList<NoticeData> list;
     private NoticeAdapter adapter;
+    ShimmerFrameLayout shimmerFrameLayout;
 
     private DatabaseReference reference;
     @Override
@@ -35,10 +37,12 @@ public class NoticeMainActivity extends AppCompatActivity {
 
 
         deletenotice_recycler = findViewById(R.id.DeleteNoticeRecycler);
-        dltnoticeprogressbar = findViewById(R.id.dltnoticeprogressbar);
+       // dltnoticeprogressbar = findViewById(R.id.dltnoticeprogressbar);
         reference= FirebaseDatabase.getInstance().getReference().child("Notice");
         deletenotice_recycler.setLayoutManager(new LinearLayoutManager(this));
         deletenotice_recycler.setHasFixedSize(true);
+        shimmerFrameLayout=findViewById(R.id.shimmer);
+        shimmerFrameLayout.startShimmer();
 
         getNotice();
     }
@@ -55,13 +59,15 @@ public class NoticeMainActivity extends AppCompatActivity {
                 }
                 adapter = new NoticeAdapter(NoticeMainActivity.this,list);
                 adapter.notifyDataSetChanged();
-                dltnoticeprogressbar.setVisibility(View.GONE);
+                //dltnoticeprogressbar.setVisibility(View.GONE);
+                shimmerFrameLayout.stopShimmer();
+                shimmerFrameLayout.setVisibility(View.GONE);
                 deletenotice_recycler.setAdapter(adapter);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                dltnoticeprogressbar.setVisibility(View.GONE);
+               // dltnoticeprogressbar.setVisibility(View.GONE);
                 Toast.makeText(NoticeMainActivity.this,databaseError.getMessage() , Toast.LENGTH_SHORT).show();
             }
         });

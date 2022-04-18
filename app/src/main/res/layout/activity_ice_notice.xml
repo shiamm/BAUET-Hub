@@ -36,7 +36,61 @@
         android:paddingTop="0dp"
         android:paddingRight="7dp">
 
-        <ProgressBar
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/shimmer">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+                <include layout="@layout/shimmer_layout">
+
+                </include>
+
+
+            </LinearLayout>
+
+        </com.facebook.shimmer.ShimmerFrameLayout>
+
+      <!--  <ProgressBar
             android:id="@+id/icedltnoticeprogressbar"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -44,7 +98,7 @@
             android:indeterminate="true"
             android:indeterminateDrawable="@drawable/progress_back"
 />
-
+-->
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/iceDeleteNoticeRecycler"
             android:layout_width="match_parent"

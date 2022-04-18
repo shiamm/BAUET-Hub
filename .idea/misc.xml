@@ -212,7 +212,7 @@
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/history_activity.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/home_activity.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/how_to_pay_activity.xml" value="0.1" />
-        <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/ice_professional_main_activity.xml" value="0.32441471571906355" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/ice_professional_main_activity.xml" value="0.22" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/item.xml" value="0.1" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/kabir_main_activity.xml" value="0.11388888888888889" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/lincon_main_activity.xml" value="0.14666666666666667" />
@@ -225,6 +225,8 @@
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/rubayat_yasmin_activity.xml" value="0.1" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/rubel_main_activity.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/scholarship_waiver_activity.xml" value="0.1" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/shimmer_gallery_layout.xml" value="0.16160337552742615" />
+        <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/shimmer_layout.xml" value="0.16666666666666666" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/transcript_degree_c_f_dtil_activity.xml" value="0.1" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/why_study_here_activity.xml" value="0.1" />
         <entry key="..\:/Users/shiam/AndroidStudioProjects/BAUET/app/src/main/res/layout/zihad_main_activity.xml" value="0.11296296296296296" />
@@ -232,7 +234,7 @@
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

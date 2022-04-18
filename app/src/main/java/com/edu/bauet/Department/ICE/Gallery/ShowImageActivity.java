@@ -4,6 +4,7 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 
 import android.os.Bundle;
 import android.view.View;
@@ -13,6 +14,7 @@ import android.widget.ProgressBar;
 import com.edu.bauet.Database.Gallery.Model;
 import com.edu.bauet.Database.Gallery.MyAdapter;
 import com.edu.bauet.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -27,6 +29,7 @@ public class ShowImageActivity extends AppCompatActivity {
     private ArrayList<Model> list;
     private ProgressBar gprogressbar;
     private MyAdapter adapter;
+    ShimmerFrameLayout shimmerFrameLayout;
 
     private DatabaseReference root = FirebaseDatabase.getInstance().getReference("iceImage");
 
@@ -40,9 +43,11 @@ public class ShowImageActivity extends AppCompatActivity {
         icerecyclerView.setHasFixedSize(true);
         icerecyclerView.setLayoutManager(new LinearLayoutManager(this));
         list = new ArrayList<>();
-        gprogressbar = findViewById(R.id.gprogressbar);
+        //gprogressbar = findViewById(R.id.gprogressbar);
         adapter = new MyAdapter(this , list);
         icerecyclerView.setAdapter(adapter);
+        shimmerFrameLayout=findViewById(R.id.shimmer);
+        shimmerFrameLayout.startShimmer();
 
         root.addValueEventListener(new ValueEventListener() {
             @Override
@@ -52,12 +57,14 @@ public class ShowImageActivity extends AppCompatActivity {
                     list.add(0,model);
                 }
                 adapter.notifyDataSetChanged();
-                gprogressbar.setVisibility(View.GONE);
+                shimmerFrameLayout.stopShimmer();
+                shimmerFrameLayout.setVisibility(View.GONE);
+               // gprogressbar.setVisibility(View.GONE);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError error) {
-                gprogressbar.setVisibility(View.GONE);
+                //gprogressbar.setVisibility(View.GONE);
             }
         });
     }

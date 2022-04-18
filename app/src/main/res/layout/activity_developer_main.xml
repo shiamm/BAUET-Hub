@@ -15,18 +15,27 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="top"
-            android:background="@drawable/dev_photo"
-            android:gravity="top"
             android:orientation="vertical">
 
-            <ImageView
+            <io.github.florent37.shapeofview.shapes.ArcView
                 android:layout_width="match_parent"
-                android:layout_height="320dp"
-                android:layout_gravity="top"
-                android:background="@drawable/dev_photo"
-                android:scaleType="centerCrop"
-                android:src="@drawable/img_dev" />
+                android:layout_height="310dp"
+                android:elevation="10dp"
+                app:shape_arc_height="30dp"
+                app:shape_arc_position="bottom"
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/img_dev">
+
+                </ImageView>
+
+            </io.github.florent37.shapeofview.shapes.ArcView>
+
+
         </LinearLayout>
 
         <androidx.coordinatorlayout.widget.CoordinatorLayout
@@ -36,9 +45,8 @@
             <FrameLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="45dp"
-                android:background="@drawable/cut_corner_four_side"
-                app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior">
+                android:layout_marginTop="300dp"
+                >
 
 
                 <LinearLayout

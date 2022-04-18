@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
 import com.edu.bauet.R;
+import com.google.android.material.imageview.ShapeableImageView;
 
 import java.util.ArrayList;
 

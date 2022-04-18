@@ -12,10 +12,9 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="260dp"
         android:id="@+id/m_image"
+        android:background="@color/shimmer_color"
         android:scaleType="fitXY"/>
-
-
 
 </com.google.android.material.card.MaterialCardView>

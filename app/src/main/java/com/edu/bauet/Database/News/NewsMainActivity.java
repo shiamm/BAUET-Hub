@@ -13,6 +13,7 @@ import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import com.edu.bauet.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -26,7 +27,7 @@ public class NewsMainActivity extends AppCompatActivity {
     private ProgressBar newsprogressbar;
     private ArrayList<NewsData> list;
     private NewsAdapter adapter;
-
+    ShimmerFrameLayout shimmerFrameLayout;
     private DatabaseReference reference;
 
     @Override
@@ -35,10 +36,12 @@ public class NewsMainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_news_main);
 
         news_recycler = findViewById(R.id.NewsRecycler);
-        newsprogressbar = findViewById(R.id.Newsprogressbar);
+        //newsprogressbar = findViewById(R.id.Newsprogressbar);
         reference= FirebaseDatabase.getInstance().getReference().child("News");
         news_recycler.setLayoutManager(new LinearLayoutManager(this));
         news_recycler.setHasFixedSize(true);
+        shimmerFrameLayout=findViewById(R.id.shimmer);
+        shimmerFrameLayout.startShimmer();
 
         getNews();
     }
@@ -55,13 +58,15 @@ public class NewsMainActivity extends AppCompatActivity {
                 }
                 adapter = new NewsAdapter(NewsMainActivity.this,list);
                 adapter.notifyDataSetChanged();
-                newsprogressbar.setVisibility(View.GONE);
+                shimmerFrameLayout.stopShimmer();
+                shimmerFrameLayout.setVisibility(View.GONE);
+               // newsprogressbar.setVisibility(View.GONE);
                 news_recycler.setAdapter(adapter);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                newsprogressbar.setVisibility(View.GONE);
+              //  newsprogressbar.setVisibility(View.GONE);
                 Toast.makeText(NewsMainActivity.this,databaseError.getMessage() , Toast.LENGTH_SHORT).show();
             }
         });

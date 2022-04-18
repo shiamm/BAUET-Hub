@@ -16,6 +16,7 @@ import com.edu.bauet.Database.Notice.NoticeAdapter;
 import com.edu.bauet.Database.Notice.NoticeData;
 import com.edu.bauet.Database.Notice.NoticeMainActivity;
 import com.edu.bauet.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,6 +30,7 @@ public class AdmissionNoticeMainActivity extends AppCompatActivity {
     private ProgressBar admissionnoticeprogressbar;
     private ArrayList<NoticeData> list;
     private NoticeAdapter adapter;
+    ShimmerFrameLayout shimmerFrameLayout;
 
     private DatabaseReference reference;
     @Override
@@ -38,10 +40,12 @@ public class AdmissionNoticeMainActivity extends AppCompatActivity {
 
 
         AdmissionNoticeRecycler = findViewById(R.id.AdmissionNoticeRecycler);
-        admissionnoticeprogressbar = findViewById(R.id.admissionnoticeprogressbar);
+      //  admissionnoticeprogressbar = findViewById(R.id.admissionnoticeprogressbar);
         reference= FirebaseDatabase.getInstance().getReference().child("AdmissionNotice");
         AdmissionNoticeRecycler.setLayoutManager(new LinearLayoutManager(this));
         AdmissionNoticeRecycler.setHasFixedSize(true);
+        shimmerFrameLayout=findViewById(R.id.shimmer);
+        shimmerFrameLayout.startShimmer();
 
         getNotice();
     }
@@ -58,13 +62,15 @@ public class AdmissionNoticeMainActivity extends AppCompatActivity {
                 }
                 adapter = new NoticeAdapter(AdmissionNoticeMainActivity.this,list);
                 adapter.notifyDataSetChanged();
-                admissionnoticeprogressbar.setVisibility(View.GONE);
+                shimmerFrameLayout.stopShimmer();
+                shimmerFrameLayout.setVisibility(View.GONE);
+               // admissionnoticeprogressbar.setVisibility(View.GONE);
                 AdmissionNoticeRecycler.setAdapter(adapter);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                admissionnoticeprogressbar.setVisibility(View.GONE);
+              //  admissionnoticeprogressbar.setVisibility(View.GONE);
                 Toast.makeText(AdmissionNoticeMainActivity.this,databaseError.getMessage() , Toast.LENGTH_SHORT).show();
             }
         });

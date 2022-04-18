@@ -16,6 +16,7 @@ import com.edu.bauet.Database.Notice.NoticeAdapter;
 import com.edu.bauet.Database.Notice.NoticeData;
 import com.edu.bauet.Database.Notice.NoticeMainActivity;
 import com.edu.bauet.R;
+import com.facebook.shimmer.ShimmerFrameLayout;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -29,6 +30,7 @@ public class IceNoticeActivity extends AppCompatActivity {
     private ProgressBar icedltnoticeprogressbar;
     private ArrayList<NoticeData> list;
     private NoticeAdapter adapter;
+    ShimmerFrameLayout shimmerFrameLayout;
 
     private DatabaseReference reference;
 
@@ -39,10 +41,12 @@ public class IceNoticeActivity extends AppCompatActivity {
 
 
         icedeletenotice_recycler = findViewById(R.id.iceDeleteNoticeRecycler);
-        icedltnoticeprogressbar = findViewById(R.id.icedltnoticeprogressbar);
+       // icedltnoticeprogressbar = findViewById(R.id.icedltnoticeprogressbar);
         reference= FirebaseDatabase.getInstance().getReference().child("iceNotice");
         icedeletenotice_recycler.setLayoutManager(new LinearLayoutManager(this));
         icedeletenotice_recycler.setHasFixedSize(true);
+        shimmerFrameLayout=findViewById(R.id.shimmer);
+        shimmerFrameLayout.startShimmer();
 
         getNotice();
     }
@@ -59,13 +63,15 @@ public class IceNoticeActivity extends AppCompatActivity {
                 }
                 adapter = new NoticeAdapter(IceNoticeActivity.this,list);
                 adapter.notifyDataSetChanged();
-                icedltnoticeprogressbar.setVisibility(View.GONE);
+                shimmerFrameLayout.stopShimmer();
+                shimmerFrameLayout.setVisibility(View.GONE);
+              //  icedltnoticeprogressbar.setVisibility(View.GONE);
                 icedeletenotice_recycler.setAdapter(adapter);
             }
 
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError) {
-                icedltnoticeprogressbar.setVisibility(View.GONE);
+              //  icedltnoticeprogressbar.setVisibility(View.GONE);
                 Toast.makeText(IceNoticeActivity.this,databaseError.getMessage() , Toast.LENGTH_SHORT).show();
             }
         });

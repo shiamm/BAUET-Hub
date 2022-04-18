@@ -19,4 +19,5 @@
 
     <color name="red">#FF0000</color>
     <color name="gray">#808080</color>
+    <color name="shimmer_color">#dddddd</color>
 </resources>
