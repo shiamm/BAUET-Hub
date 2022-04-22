@@ -25,7 +25,6 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor">#e1e2df</item>
         <item name="android:windowLightStatusBar" tools:ignore="NewApi">true</item>
-        <item name="android:windowSplashScreenBackground">?attr/background</item>
 
 
         <!--Material type attributes-->

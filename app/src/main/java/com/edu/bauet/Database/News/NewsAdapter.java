@@ -12,12 +12,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.edu.bauet.Database.Notice.FullImageActivity;
 import com.edu.bauet.R;
 
 import java.util.ArrayList;
 
-public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewAdapter>{
+public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewAdapter> {
     private Context context;
     private ArrayList<NewsData> list;
 
@@ -25,10 +24,11 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewAdapte
         this.context = context;
         this.list = list;
     }
+
     @NonNull
     @Override
     public NewsViewAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.notice_item_adminlayout,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.notice_item_adminlayout, parent, false);
         return new NewsViewAdapter(view);
     }
 
@@ -47,14 +47,6 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewAdapte
             e.printStackTrace();
         }
 
-        holder.deletenotice_image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context, FullImageActivity.class);
-                intent.putExtra("image",currentItem.getImage());
-                context.startActivity(intent);
-            }
-        });
     }
 
     @Override
@@ -63,7 +55,7 @@ public class NewsAdapter extends RecyclerView.Adapter<NewsAdapter.NewsViewAdapte
     }
 
     public class NewsViewAdapter extends RecyclerView.ViewHolder {
-        private TextView deletenotice_title,date,time;
+        private TextView deletenotice_title, date, time;
         private ImageView deletenotice_image;
 
         public NewsViewAdapter(@NonNull View itemView) {

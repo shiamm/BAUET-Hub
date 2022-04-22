@@ -12,7 +12,6 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.edu.bauet.Database.Notice.FullImageActivity;
 import com.edu.bauet.R;
 
 import java.util.ArrayList;
@@ -48,15 +47,6 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        holder.deletenotice_image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context, FullImageActivity.class);
-                intent.putExtra("image",currentItem.getImage());
-                context.startActivity(intent);
-            }
-        });
 
     }
 

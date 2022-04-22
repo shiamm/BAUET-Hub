@@ -29,7 +29,7 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
     @NonNull
     @Override
     public NoticeViewAdapter onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(context).inflate(R.layout.notice_item_adminlayout,parent,false);
+        View view = LayoutInflater.from(context).inflate(R.layout.notice_item_adminlayout, parent, false);
         return new NoticeViewAdapter(view);
     }
 
@@ -43,19 +43,10 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
 
         try {
             if (currentItem.getImage() != null)
-            Glide.with(context).load(currentItem.getImage()).into(holder.deletenotice_image);
+                Glide.with(context).load(currentItem.getImage()).into(holder.deletenotice_image);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
-        holder.deletenotice_image.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context, FullImageActivity.class);
-                intent.putExtra("image",currentItem.getImage());
-                context.startActivity(intent);
-            }
-        });
 
     }
 
@@ -66,7 +57,7 @@ public class NoticeAdapter extends RecyclerView.Adapter<NoticeAdapter.NoticeView
 
     public class NoticeViewAdapter extends RecyclerView.ViewHolder {
 
-        private TextView deletenotice_title,date,time;
+        private TextView deletenotice_title, date, time;
         private ImageView deletenotice_image;
 
         public NoticeViewAdapter(@NonNull View itemView) {

@@ -15,6 +15,7 @@ import com.google.android.material.card.MaterialCardView;
 
 public class AboutUsMainActivity extends AppCompatActivity {
     MaterialCardView card_history, card_why, card_aboutus, card_dev;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

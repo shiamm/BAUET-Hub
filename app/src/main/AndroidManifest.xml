@@ -267,9 +267,6 @@
             android:name=".Database.Event.EventMainActivity"
             android:exported="false" />
         <activity
-            android:name=".Database.Notice.FullImageActivity"
-            android:exported="false" />
-        <activity
             android:name=".Database.Notice.NoticeMainActivity"
             android:exported="false" />
         <activity
