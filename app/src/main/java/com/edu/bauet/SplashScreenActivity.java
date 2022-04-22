@@ -28,6 +28,7 @@ public class SplashScreenActivity extends AppCompatActivity {
             public void run() {
 
                 startActivity(new Intent(SplashScreenActivity.this, LoginActivity.class));
+                overridePendingTransition(R.anim.shrink_fade_out_center, R.anim.shrink_fade_out_center);
                 finish();
             }
         }, splash_time);

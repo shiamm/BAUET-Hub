@@ -95,6 +95,5 @@ public class ManikActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void finish() {
         super.finish();
-        overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
     }
 }

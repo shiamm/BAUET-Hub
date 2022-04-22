@@ -30,7 +30,6 @@ public class TechnicalStaffsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(TechnicalStaffsActivity.this, ShamsActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
             }
         });
         card_Raton = findViewById(R.id.card_Raton);
@@ -39,7 +38,6 @@ public class TechnicalStaffsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(TechnicalStaffsActivity.this, RatonActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
             }
         });
         card_Manik = findViewById(R.id.card_Manik);
@@ -48,7 +46,6 @@ public class TechnicalStaffsActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(TechnicalStaffsActivity.this, ManikActivity.class);
                 startActivity(intent);
-                overridePendingTransition(R.anim.slide_in_up, R.anim.slide_out_down);
             }
         });
 

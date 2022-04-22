@@ -210,6 +210,7 @@ public class HomeActivity extends AppCompatActivity implements NavigationView.On
                 .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
+                        overridePendingTransition(R.anim.shrink_fade_out_center, R.anim.shrink_fade_out_center);
                         finish();
                     }
                 })
