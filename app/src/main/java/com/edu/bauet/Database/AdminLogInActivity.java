@@ -52,7 +52,7 @@ public class AdminLogInActivity extends AppCompatActivity {
                     txt_name.setError("Enter Admin Name");
                 } else if (txt_pass.getText().toString().equals("")) {
                     txt_pass.setError("Enter Admin Password");
-                } else if (id.equals("Shiam") && pass.equals("Shiam402828")) {
+                } else if (id.equals("Shiam") && pass.equals("Shiam54321")) {
                     Intent intent = new Intent(AdminLogInActivity.this, AdminHomeActivity.class);
                     startActivity(intent);
                     finish();
