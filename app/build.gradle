@@ -18,11 +18,19 @@ android {
     }
 
     buildTypes {
+        debug {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+
         release {
-            minifyEnabled false
+            minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
@@ -50,13 +58,12 @@ dependencies {
     implementation 'io.github.florent37:shapeofview:1.4.7'
 
     // Declare the dependency for the Firebase
-    implementation 'com.google.firebase:firebase-firestore:24.1.2'
+    implementation 'com.google.firebase:firebase-firestore:24.2.0'
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     implementation 'com.google.firebase:firebase-database:20.0.5'
-    implementation 'com.google.firebase:firebase-auth:21.0.5'
-    implementation 'com.google.firebase:firebase-messaging:23.0.5'
+    implementation 'com.google.firebase:firebase-auth:21.0.6'
+    implementation 'com.google.firebase:firebase-messaging:23.0.6'
     implementation 'com.google.firebase:firebase-analytics:21.0.0'
     implementation platform('com.google.firebase:firebase-bom:30.1.0')
-
 
 }

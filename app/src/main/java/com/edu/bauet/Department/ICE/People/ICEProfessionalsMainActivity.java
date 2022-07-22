@@ -51,246 +51,174 @@ public class ICEProfessionalsMainActivity extends AppCompatActivity {
         imgview11 = findViewById(R.id.img11);
         imgview12 = findViewById(R.id.img12);
 
-        nazmul.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, NazmulMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        nazmul.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, NazmulMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        zihad.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, ZihadMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview1, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        zihad.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, ZihadMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview1, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        rubaiyat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, RubayatYasminActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview3, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        rubaiyat.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, RubayatYasminActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview3, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        rubel.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, RubelMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview4, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        rubel.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, RubelMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview4, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        partha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, ParthaMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview5, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        partha.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, ParthaMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview5, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        miti.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, MitiMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview6, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        miti.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, MitiMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview6, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        lincon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, LinconMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview7, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        lincon.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, LinconMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview7, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        kabir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, KabirMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview8, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        kabir.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, KabirMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview8, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
 
 
-        minhaz.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, MinhazMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview9, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        minhaz.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, MinhazMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview9, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        arafat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, ArafatMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview10, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        arafat.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, ArafatMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview10, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        imran.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, ImranActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview11, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        imran.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, ImranActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview11, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
-        mouno.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent(ICEProfessionalsMainActivity.this, MumeninMainActivity.class);
-                Pair[] pairs = new Pair[1];
-                pairs[0] = new Pair<View, String>(imgview12, "imgtransition");
-                ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
-                startActivity(i, OptionsCompat.toBundle());
-            }
+        mouno.setOnClickListener(v -> {
+            Intent i = new Intent(ICEProfessionalsMainActivity.this, MumeninMainActivity.class);
+            Pair[] pairs = new Pair[1];
+            pairs[0] = new Pair<View, String>(imgview12, "imgtransition");
+            ActivityOptionsCompat OptionsCompat = ActivityOptionsCompat.makeSceneTransitionAnimation(ICEProfessionalsMainActivity.this, pairs);
+            startActivity(i, OptionsCompat.toBundle());
         });
 
         card_rubayat = findViewById(R.id.card_rubayat);
-        card_rubayat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, RubayatYasminActivity.class);
-                startActivity(intent);
-            }
+        card_rubayat.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, RubayatYasminActivity.class);
+            startActivity(intent);
         });
 
         card_basar = findViewById(R.id.card_basar);
-        card_basar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, RubelMainActivity.class);
-                startActivity(intent);
-            }
+        card_basar.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, RubelMainActivity.class);
+            startActivity(intent);
         });
 
         card_partha = findViewById(R.id.card_partha);
-        card_partha.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, ParthaMainActivity.class);
-                startActivity(intent);
-            }
+        card_partha.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, ParthaMainActivity.class);
+            startActivity(intent);
         });
 
         card_miti = findViewById(R.id.card_miti);
-        card_miti.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, MitiMainActivity.class);
-                startActivity(intent);
-            }
+        card_miti.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, MitiMainActivity.class);
+            startActivity(intent);
         });
 
         card_lincon = findViewById(R.id.card_lincon);
-        card_lincon.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, LinconMainActivity.class);
-                startActivity(intent);
-            }
+        card_lincon.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, LinconMainActivity.class);
+            startActivity(intent);
         });
 
         card_nazmul = findViewById(R.id.card_nazmul);
-        card_nazmul.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, NazmulMainActivity.class);
-                startActivity(intent);
-            }
+        card_nazmul.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, NazmulMainActivity.class);
+            startActivity(intent);
         });
 
         card_zihad = findViewById(R.id.card_zihad);
-        card_zihad.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, ZihadMainActivity.class);
-                startActivity(intent);
-            }
+        card_zihad.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, ZihadMainActivity.class);
+            startActivity(intent);
         });
 
         card_kabir = findViewById(R.id.card_kabir);
-        card_kabir.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, KabirMainActivity.class);
-                startActivity(intent);
-            }
+        card_kabir.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, KabirMainActivity.class);
+            startActivity(intent);
         });
 
         card_minhaz = findViewById(R.id.card_minhaz);
-        card_minhaz.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, MinhazMainActivity.class);
-                startActivity(intent);
-            }
+        card_minhaz.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, MinhazMainActivity.class);
+            startActivity(intent);
         });
 
         card_arafat = findViewById(R.id.card_arafat);
-        card_arafat.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, ArafatMainActivity.class);
-                startActivity(intent);
-            }
+        card_arafat.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, ArafatMainActivity.class);
+            startActivity(intent);
         });
 
         card_imran = findViewById(R.id.card_imran);
-        card_imran.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, ImranActivity.class);
-                startActivity(intent);
-            }
+        card_imran.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, ImranActivity.class);
+            startActivity(intent);
         });
 
         card_mouno = findViewById(R.id.card_mouno);
-        card_mouno.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ICEProfessionalsMainActivity.this, MumeninMainActivity.class);
-                startActivity(intent);
-            }
+        card_mouno.setOnClickListener(v -> {
+            Intent intent = new Intent(ICEProfessionalsMainActivity.this, MumeninMainActivity.class);
+            startActivity(intent);
         });
 
     }
