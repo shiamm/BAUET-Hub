@@ -24,3 +24,7 @@ Gallery Screen            |  Class & Lab Material Download              |
 ![7](https://user-images.githubusercontent.com/98076172/188307018-2305c396-9da8-4f1a-b915-a1d425c4bc11.png) | ![8](https://user-images.githubusercontent.com/98076172/188307028-a881933e-6d7b-4fae-ac05-714fa2ad5a5d.png)
 
 
+Dark Mode            |       Dark Mode |     
+:-------------------------: | :-------------------------:
+![2](https://user-images.githubusercontent.com/98076172/188307542-e336c76b-ebf8-4e02-9322-74792a5936fd.png) | ![4](https://user-images.githubusercontent.com/98076172/188307575-d97a262b-825f-4a3a-9422-bc7b3b77fb5c.png)
+
