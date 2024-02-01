@@ -1,8 +1,5 @@
 # BAUET-app
 -	The BAUET App, designed for [Bangladesh Army University of Engineering & Technology](https://bauet.ac.bd/) students, offers a user-friendly interface for seamless navigation. It provides a central hub for essential features, including notices, academic calendars, department details, and a rich media gallery. Students can stay updated on news, events, and facilities, access administration contacts, and gather admission information effortlessly. The app ensures effective teacher communication through quick links for calls, emails, WhatsApp, and Messenger. Additionally, easily access teachers' LinkedIn and Facebook profiles for comprehensive connectivity. With enhanced security through Google Sign-In, the BAUET App prioritizes the protection of personal information and guarantees a secure academic experience.
-
-
-The BAUET App, designed for Bangladesh Army University of Engineering & Technology 
 ## Preview
 
 
