@@ -1,5 +1,8 @@
 # BAUET-app
--	BAUET is an Online Android App for [Bangladesh Army University of Engineering & Technology](https://bauet.ac.bd/) students built in Android Studio. They can see the notice, department, academic calendar, gallery, news, events, facilities, administration, admission, class routine, results from the app. They can download class & lab materials. Also, they can easily contact teachers from the app. Firebase database used as backend. This app is available in both light & dark mode.
+-	The BAUET App, designed for [Bangladesh Army University of Engineering & Technology](https://bauet.ac.bd/) students, offers a user-friendly interface for seamless navigation. It provides a central hub for essential features, including notices, academic calendars, department details, and a rich media gallery. Students can stay updated on news, events, and facilities, access administration contacts, and gather admission information effortlessly. The app ensures effective teacher communication through quick links for calls, emails, WhatsApp, and Messenger. Additionally, easily access teachers' LinkedIn and Facebook profiles for comprehensive connectivity. With enhanced security through Google Sign-In, the BAUET App prioritizes the protection of personal information and guarantees a secure academic experience.
+
+
+The BAUET App, designed for Bangladesh Army University of Engineering & Technology 
 ## Preview
 
 
